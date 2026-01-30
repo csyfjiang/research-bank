@@ -1,0 +1,990 @@
+﻿名称,年份,维度,模态,器官/结构,图像数量,任务类型,链接
+Gastrointestinal Atlas,2000,Video,Endoscopy,"Bowel, Stomach",,NA,http://www.gastrointestinalatlas.com/english/english.html
+JSRT,2000,2D,X-Ray,Lung,247,Cls,http://db.jsrt.or.jp/eng.php
+LPBA40,2001,3D,MR,Brain,40,Seg,https://continuousregistration.grand-challenge.org/data/
+DRIVE,2003,2D,Fundus Photo,Retina,40,Seg,https://drive.grand-challenge.org/
+ELCAP Public Lung Image Database,2003,3D,CT,Lung,50,Det,http://www.via.cornell.edu/lungdb.html
+STARE,2004,2D,Fundus Photo,Retina,40,Seg,http://cecas.clemson.edu/~ahoover/stare/
+William Hoyt,2004,2D,Fundus,Retina,856,Cls,https://novel.utah.edu/Hoyt/disc_swelling.php
+CAUSE07,2007,3D,MR,Brain,38,Seg,https://cause07.grand-challenge.org/
+OASIS-1,2007,3D,MR,Brain,416,Seg,https://www.oasis-brains.org/
+SLIVER07,2007,3D,CT,Liver,30,Seg,https://sliver07.grand-challenge.org/
+Corneal Nerve,2008,2D,Microscopy,Retina,90,Cls,http://bioimlab.dei.unipd.it/Data%20Sets.htm
+HErlev,2008,2D,Histopathology (Patch),Cervix,5.6k,Cls,https://opendatalab.org.cn/HErlev/download
+MSSEG 2008,2008,3D,MR,Brain,38,Seg,http://www.ia.unc.edu/MSseg/index.html
+Retinal Vessel Tortuosity,2008,2D,Fundus Photo,Retina,60,Reg,http://bioimlab.dei.unipd.it/Retinal
+ANODE09,2009,3D,CT,Lung,55,Det,https://anode09.grand-challenge.org/
+CHASE,2009,2D,Fundus Photo,Retina,28,Seg,https://blogs.kingston.ac.uk/retinal/chasedb1/
+DiaRetDB,2009,2D,Fundus Photo,Retina,89,Det,https://www.it.lut.fi/project/imageret/
+EXACT09,2009,3D,CT,Lung,40,Seg,http://image.diku.dk/exact/information.php
+PROMISE09,2009,3D,MR,Prostate,15,Seg,https://www.na-mic.org/wiki/2009_prostate_segmentation_challenge_MICCAI
+Public Lung Database To Address Drug Response,2009,3D,CT,Lung,93,Seg,http://www.via.cornell.edu/crpf.html
+1000 Functional Connectomes Project,2010,3D,MR,Brain,1414,Cls,http://fcon_1000.projects.nitrc.org/fcpClassic/FcpTable.html
+3D-IRCADb,2010,3D,CT,Liver,20,Seg,https://www.ircad.fr/research/data-sets/liver-segmentation-3d-ircadb-01/
+Continuous Registration EMPIRE,2010,3D,CT,Lungs,60,Reg,https://empire10.grand-challenge.org/
+OASIS-2,2010,3D,MR,Brain,1200,Cls,https://sites.wustl.edu/oasisbrains/home/oasis-2/
+Parkinson,2010,3D,MR/ PET/ SPECT,Brain,683,Cls,https://www.ppmi-info.org/access-data-specimens/download-data
+SKI10,2010,3D,MR,"Bone, Cartilage",150,Seg,https://ski10.grand-challenge.org/Home/
+BREAST-DIAGNOSIS,2011,2D/ 3D,CT/ MG/ MR/ PT,Breast,88,Cls,https://www.cancerimagingarchive.net/collection/breast-diagnosis/
+Brain Segmentation Testing Protocol,2011,3D,MR,Brain,312,Seg,https://www.nitrc.org/projects/bstp/
+Corneal Nerve Tortuosity,2011,2D,Microscopy,Retina,30,Cls,http://bioimlab.dei.unipd.it/Data%20Sets.htm
+INSPIRE (AVR),2011,2D,Fundus,Retina,40,Reg,https://medicine.uiowa.edu/eye/inspire-datasets
+INSPIRE (Stereo),2011,2D,Fundus,Retina,30,Reg,https://medicine.uiowa.edu/eye/inspire-datasets
+LIDC-IDRI,2011,3D,CT,Lung,1018,Seg,https://www.cancerimagingarchive.net/collection/lidc-idri/
+LOLA11,2011,3D,CT,Chest,55,Seg,https://lola11.grand-challenge.org/
+Prostate-MRI,2011,"3D, 2D",Multi,Prostate,26,NA,https://wiki.cancerimagingarchive.net/display/Public/PROSTATE-MRI
+QIBA CT-1C,2011,3D,CT,Phantom,1,Seg,https://www.cancerimagingarchive.net/collection/qiba-ct-1c/
+RIDER Breast MR,2011,3D,MR,Breast,40,Cls,https://www.cancerimagingarchive.net/collection/rider-breast-mri/
+RIDER Neuro MR,2011,3D,MR,Brain,19,Cls,https://www.cancerimagingarchive.net/collection/rider-neuro-mri/
+RIDER Phantom MR,2011,3D,MR,Phantom,10,QA,https://www.cancerimagingarchive.net/collection/rider-phantom-mri/
+RIDER Phantom PET-CT,2011,2D,"CT, PET",NA,2.2k,NA,https://wiki.cancerimagingarchive.net/display/Public/RIDER+Phantom+PET-CT
+STACOM 2011,2011,3D,MR/ US,Heart,1158,"Reg
+Trk",https://www.cardiacatlas.org/motion-tracking-2011-challenge/
+Vampire,2011,2D,Fundus,Retina,8,Seg,https://vampire.computing.dundee.ac.uk/vesselseg.html
+BBBC041,2012,2D,Microscopy,Cell,1.3k,Seg,https://opendatalab.org.cn/BBBC041/download
+BraTS 2012,2012,3D,MR,Brain,50,Seg,https://www.smir.ch/BRATS/Start2012
+CRASS,2012,2D,X-Ray,Clavicle,518,Seg,https://crass.grand-challenge.org/Home/
+Chiu IOVS 2011,2012,3D,OCT,Retina,25,Seg,https://people.duke.edu/~sf59/Chiu_IOVS_2011_dataset.htm
+Mindboggle-101,2012,3D,MR,Brain,101,Seg,https://mindboggle.info/data.html
+PROMISE12,2012,3D,MR,Prostate,50,Seg,https://promise12.grand-challenge.org/
+SinaFarsiu-003-Fang_BOE_2012,2012,2D,OCT,Retina,51,Seg,https://people.duke.edu/~sf59/software.html
+SinaFarsiu-008-Chiu_BOE_2012,2012,2D,OCT,Retina,23,Seg,https://people.duke.edu/~sf59/software.html
+VESSEL12,2012,3D,CT,Lung,20,Seg,https://vessel12.grand-challenge.org/
+AO-SLO Photoreceptor Seg.,2013,2D,Fundus,Retina,840,Seg,https://people.duke.edu/~sf59/Chiu_BOE_2013_dataset.htm
+BraTS 2013,2013,3D,MR,Brain,60,Seg,https://www.smir.ch/BRATS/Start2013
+CAD-PE,2013,3D,CT,Liver,91,Seg,https://arxiv.org/abs/2003.13440
+Farsiu Ophthalmology 2013,2013,3D,OCT,Retina,384,Seg,https://people.duke.edu/~sf59/RPEDC_Ophth_2013_dataset.htm
+HARDI Reconstruction Challenge Dataset,2013,3D,MR,Brain,6,Rec,http://hardi.epfl.ch/static/events/2013_ISBI/
+HRF Quality Assessment,2013,2D,Fundus,Retina,36,Reg,https://www5.cs.fau.de/research/data/fundus-images/
+HRF Segmentation,2013,2D,Fundus,Retina,45,Seg,https://www5.cs.fau.de/research/data/fundus-images/
+Head-Neck Cetuximab (RTOG 0522),2013,3D,CT/ PET,Head and Neck,111,Cls,https://www.cancerimagingarchive.net/collection/head-neck-cetuximab/
+High Anisotropy MR,2013,3D,MR,Spine,17,Rec,http://spineweb.digitalimaginggroup.ca/dataset.php
+MESSIDOR-2,2013,2D,Fundus Photo,Retina,1.7k,Cls,https://www.adcis.net/en/third-party/messidor2/
+MIRIAD dataset,2013,3D,MR,Brain,708,Reg,http://miriad.drc.ion.ucl.ac.uk/
+MITOS-ATYPIA-14,2013,2D,Biopsy slides,Breast,1420,Cls,https://mitos-atypia-14.grand-challenge.org/
+MRBrainS13,2013,3D,MR,Brain,20,Seg,https://mrbrains13.isi.uu.nl/
+Miles Iris,2013,2D,Fundus (Iris),Retina,833,Cls,https://drive.google.com/drive/folders/0B5OBp4zckpLnYkpBcWlubC0tcTA
+NaF PROSTATE,2013,3D,CT/ PET,Prostate,9,Cls,https://www.cancerimagingarchive.net/collection/naf-prostate/
+National Lung Screening Trial,2013,"3D, 2D","CT, Pathology",Lung,26.7k,Cls,https://wiki.cancerimagingarchive.net/display/NLST/National+Lung+Screening+Trial
+National Lung Screening Trial (NLST),2013,3D,CT/ MICROSCOPY,Chest,26254,Cls,https://www.cancerimagingarchive.net/collection/nlst/
+National Lung Screening Trial (NLST) 2D-Pathology,2013,2D/3D,CT/ MICROSCOPY,Chest,451,Cls,https://www.cancerimagingarchive.net/collection/nlst/
+Prostate-3T,2013,3D,MR,Prostate,64,Seg,https://www.cancerimagingarchive.net/collection/prostate-3t/
+RITE,2013,2D,Fundus,Retina,40,Seg,https://opendatalab.com/RITE
+SMIR Full Body CT,2013,3D,CT,Skeleton,50,Seg,https://www.smir.ch/objects/214315
+SinaFarsiu-002-Fang_TMI_2013,2013,2D,OCT,Retina,195,Seg,https://people.duke.edu/~sf59/software.html
+SinaFarsiu-009-Chiu_BOE_2013,2013,2D,OCT,Retina,840,Seg,https://people.duke.edu/~sf59/software.html
+3T Brain-Behavior MR,2014,3D,MR,Brain,36,Reg,https://www.nitrc.org/projects/confrep2014
+BraTS 2014,2014,3D,MR,Brain,238,Seg,https://www.smir.ch/BRATS/Start2014
+CETUS2014,2014,3D,US,Heart,45,Seg,https://www.creatis.insa-lyon.fr/Challenge/CETUS/index.html
+Cephalometric X-ray Image,2014,2D,X-Ray,Skull,400,Loc,https://opendatalab.org.cn/Cephalometric_X-ray_Image
+Chiu BOE 2014 dataset,2014,3D,OCT,Retina,16,Seg,https://people.duke.edu/~sf59/Chiu_BOE_2014_dataset.htm
+Colin 3T/7T High-resolution Atlas,2014,3D,MR,Brain,19,Reg,https://www.nitrc.org/projects/colin3t7t/
+DRISHTI-GS,2014,2D,Fundus Photo,Retina,101,Seg,http://cvit.iiit.ac.in/projects/mip/drishti-gs/mip-dataset2/Home.php
+GBM-MR-NER-Outcomes,2014,3D,MR,Brain,45,Reg,https://doi.org/10.7937/K9/TCIA.2014.FAB7YRPZ
+Generation R Pediatric MR Resources,2014,3D,MR,Brain,666,Cls,https://www.nitrc.org/projects/genr
+High-quality diffusion-weighted imaging of Parkinson,2014,3D,MR,Brain,53,Cls,https://www.nitrc.org/projects/parktdi
+LungCT-Diagnosis,2014,3D,CT,Lung,61,Cls,https://www.cancerimagingarchive.net/collection/lungct-diagnosis/
+NSCLC-Radiomics,2014,3D,CT,Lung,422,Seg,https://www.cancerimagingarchive.net/collection/nsclc-radiomics/
+NSCLC-Radiomics-Genomics,2014,3D,CT,Lung,89,Cls,https://www.cancerimagingarchive.net/collection/nsclc-radiomics-genomics/
+OCCISC (InstSeg),2014,2D,Microscopy,Cell,945,Seg,https://cs.adelaide.edu.au/~carneiro/isbi14_challenge/
+OCCISC (SemSeg),2014,2D,Microscopy,Cell,945,Seg,https://cs.adelaide.edu.au/~carneiro/isbi14_challenge/
+PH2,2014,2D,Dermoscopy,Skin,200,Cls,https://www.fc.up.pt/addi/ph2%20database.html
+QIN Breast DCE-MR,2014,3D,MR,Breast,10,Seg,https://www.cancerimagingarchive.net/collection/qin-breast-dce-mri/
+QIN PET Phantom,2014,3D,PET,Body,2,Seg,https://www.cancerimagingarchive.net/collection/qin-pet-phantom/
+QIN-SARCOMA,2014,3D,MR,"Breast, Calf, Chest, Elbow, Knee, Leg, Shoulder...",15,Cls,https://www.cancerimagingarchive.net/collection/qin-sarcoma/
+REMBRANDT,2014,3D,MR,Brain,130,Seg,https://www.cancerimagingarchive.net/collection/rembrandt/
+Srinivasan BOE 2014,2014,3D,OCT,Retina,45,Cls,https://people.duke.edu/~sf59/Srinivasan_BOE_2014_dataset.htm
+TCGA-BLCA,2014,3D,CT/ MR/ PET/ X-RAY,Bladder,120,Cls,https://www.cancerimagingarchive.net/collection/tcga-blca/
+TCGA-BRCA,2014,2D/ 3D,MG/MR,Breast,139,Cls,https://www.cancerimagingarchive.net/collection/tcga-brca/
+TCGA-CESC,2014,3D,MR,Cervix,54,Cls,https://www.cancerimagingarchive.net/collection/tcga-cesc/
+TCGA-COAD,2014,3D,CT,Colon,25,Cls,https://www.cancerimagingarchive.net/collection/tcga-coad/
+TCGA-ESCA,2014,3D,CT,Esophagus,16,Cls,https://www.cancerimagingarchive.net/collection/tcga-esca/
+TCGA-GBM,2014,3D,CT/ DX/ MR,Brain,575,Cls,https://www.cancerimagingarchive.net/collection/tcga-gbm/
+TCGA-GBM-QI-Radiogenomics,2014,3D,MR,Brain,55,Seg,https://www.cancerimagingarchive.net/analysis-result/tcga-gbm-qi-radiogenomics/
+TCGA-GBM-Radiogenomics,2014,3D,MR,Brain,75,Seg,https://www.cancerimagingarchive.net/analysis-result/tcga-gbm-radiogenomics/
+TCGA-HNSC,2014,3D,CT/ MR/ PET,Head and Neck,479,Cls,https://www.cancerimagingarchive.net/collection/tcga-hnsc/
+TCGA-KIRP,2014,3D,CT/ MR/ PET,Kidney,33,Cls,https://www.cancerimagingarchive.net/collection/tcga-kirp/
+TCGA-LGG,2014,3D,CT/MR,Brain,199,Cls,https://www.cancerimagingarchive.net/collection/tcga-lgg/
+TCGA-LIHC,2014,2D/3D,CT/MR/ PET,Liver,97,Cls,https://www.cancerimagingarchive.net/collection/tcga-lihc/
+TCGA-READ,2014,3D,CT/MR,Rectum,3,Cls,https://www.cancerimagingarchive.net/collection/tcga-read/
+TCGA-SARC,2014,3D,CT/MR,Chest/ Abdomen/ Leg/ Spine,33,Cls,https://www.cancerimagingarchive.net/collection/tcga-sarc/
+orCaScore,2014,3D,CT,Heart,72,Seg,https://orcascore.grand-challenge.org/
+AIDA-E_1,2015,2D,Endoscopy,"Stomach, Liver",181,Cls,https://aidasub-cleceliachy.grand-challenge.org/
+AIDA-E_2,2015,2D,Endoscopy,Esophagus,157,Cls,https://aidasub-clebarrett.grand-challenge.org/home/
+AIDA-E_3,2015,2D,Endoscopy,"Stomach, Colon",88,Cls,https://aidasub-chromogastro.grand-challenge.org/home/
+BTCV Abdomen,2015,3D,CT,Abdomen,50,Seg,https://www.synapse.org/#!Synapse:syn3193805/wiki/217752
+BTCV Cervical,2015,3D,CT,Cervix,50,Seg,https://www.synapse.org/#!Synapse:syn3193805/wiki/217752
+BraTS 2015,2015,3D,MR,Brain,253,Seg,https://www.smir.ch/BRATS/Start2015
+Brain Genomics Superstruct Project (GSP),2015,3D,MR,Brain,1570,Seg,https://www.neuroinfo.org/gsp
+CLUST15,2015,2D,US,Liver,34,Track,https://clust.ethz.ch/
+CSI15,2015,2D/ 3D,MR/X-RAY,Spine,345,Seg,https://csi2015.weebly.com/challenges.html
+CT COLONOGRAPHY,2015,3D,CT,Colon,825,Cls,https://www.cancerimagingarchive.net/collection/ct-colonography/
+CT-Lymph-Nodes,2015,2D/3D,CT,Mediastinum / Abdomen,176,Seg,https://www.cancerimagingarchive.net/collection/ct-lymph-nodes/
+Cam-CAN,2015,3D,MEG/ MR,Brain,3000,Cls,https://camcan-archive.mrc-cbu.cam.ac.uk/dataaccess/
+Computational Methods and Clinical Applications for Spine Imaging,2015,3D,CT,Spine,312,Seg,http://csi-workshop.weebly.com/challenges.html
+Connectivity Test-Retest MR,2015,3D,MR,Brain,342,Trk,http://fcon_1000.projects.nitrc.org/indi/CoRR/html/bnu_1.html
+EndoVis 2015 - APDCV,2015,2D,Endoscopy,NA,612,Seg,https://polyp.grand-challenge.org/
+EndoVis 2015 - DAGI,2015,2D,Endoscopy,NA,389,Det,https://endovissub-abnormal.grand-challenge.org/EndoVisSub-Abnormal/
+EndoVis 2015 - EBCD,2015,2D,Endoscopy,NA,150,Seg,https://endovissub-barrett.grand-challenge.org/
+EndoVis 2015 - IST_2D-Endoscopy,2015,2D+Video,Endoscopy,NA,100,Seg,https://endovissub-instrument.grand-challenge.org/EndoVisSub-Instrument/
+EndoVis15,2015,2D,Endoscopy,Colon,612,Seg,https://polyp.grand-challenge.org/
+EndoVis15-IST,2015,"2D, Video",Endoscopy,NA,,Seg,https://endovissub-instrument.grand-challenge.org/
+EyePACS,2015,2D,Fundus Photo,Retina,88.7k,Cls,https://www.kaggle.com/c/diabetic-retinopathy-detection/data
+GSB2016,2015,2D,Multi,"Skin, Cell, Breast",31k,Cls,https://www.imageclef.org/2016/medical
+GlaS,2015,2D,Histopathology (Patch),Cell,165,Seg,https://warwick.ac.uk/fac/cross_fac/tia/data/glascontest
+Head and Neck Auto Segmentation Challenge,2015,3D,CT,"Brainstem, Mandible, Chiasm, Optic Nerves, Paro...",48,Seg,http://www.imagenglab.com/wiki/mediawiki/index.php?title=2015_MICCAI_Challenge
+Human Voice Areas,2015,3D,MR,Brain,218,Cls,https://openneuro.org/datasets/ds000158/versions/1.0.0
+ISBI-AIDA-CECI,2015,2D,Endoscopy,"Liver, Stomach",181,Cls,https://aidasub-cleceliachy.grand-challenge.org/
+ISBI-AIDA-EMIBS,2015,2D,Endoscopy,NA,262,Cls,https://isbi-aida.grand-challenge.org/
+ISBI-AIDA-GCICS,2015,2D,Endoscopy,NA,176,Cls,https://isbi-aida.grand-challenge.org/
+ISLES 2015,2015,3D,MR,Brain,114,Seg,https://www.isles-challenge.org/ISLES2015/
+ISMRM2015,2015,3D,MR,Brain,34,"Rec
+Trk",https://tractometer.org/ismrm2015/dwi_data
+ImageCLEF 2015,2015,"2D, 3D",Multi,"Skin, Cell, Breast",0,Cls,https://www.imageclef.org/2015/medical
+ImageCLEF 2016,2015,2D,Multi,"Skin, Cell, Breast",31k,Cls,https://www.imageclef.org/2016/medical
+ImageCLEF 2016 (Duplicate),2015,2D,Multi,"Skin, Cell, Breast",31k,Cls,https://www.imageclef.org/2016/medical
+Longitudinal Multiple Sclerosis Lesion Segmentation,2015,3D,MR,Brain,82,Seg,https://smart-stats-tools.org/lesion-challenge-2015
+Lung Phantom,2015,3D,CT,Thorax,1,Seg,https://www.cancerimagingarchive.net/collection/lung-phantom/
+MED-NODE,2015,2D,Dermoscopy,Skin,170,Cls,https://www.cs.rug.nl/~imaging/databases/melanoma_naevi/
+MGH Neonatal/Pediatric ADC Atlases,2015,3D,MR,Brain,201,Reg,https://www.nitrc.org/projects/mgh_adcatlases/
+Mouse-Mammary,2015,3D,MR,Mammary,32,Cls,https://www.cancerimagingarchive.net/collection/mouse-mammary/
+Multi-Modality Vertebra Recognition,2015,2D/3D,CT/MR,Spine,0,"Loc
+Reg",http://spineweb.digitalimaginggroup.ca/dataset.php
+NEATBrainS15,2015,3D,MR,Brain,20,Seg,https://www.isi.uu.nl/research/challenges/neatbrains/
+NRG-1308 (RTOG 1308),2015,3D,CT,Lung,12,Seg,https://www.cancerimagingarchive.net/collection/nrg-1308/
+NSCLC-Radiogenomics,2015,3D,CT/ PET,Chest,211,Seg,https://www.cancerimagingarchive.net/collection/nsclc-radiogenomics/
+Overlapping Cervical Cells,2015,2D,Histopathology (Patch),Cervix,17,Seg,https://cs.adelaide.edu.au/~carneiro/isbi14_challenge/
+PDDCA,2015,3D,CT,"Brainstem, Mandible, Optic nerves, Chiasm, Paro...",48,Seg,https://www.imagenglab.com/newsite/pddca/
+Phantom FDA,2015,3D,CT,Lungs,7,Reg,https://www.cancerimagingarchive.net/collection/phantom-fda/
+Prostate-Diagnosis,2015,3D,MR,Prostate,92,Seg,https://www.cancerimagingarchive.net/collection/prostate-diagnosis/
+QIDW,2015,3D,CT/ MR/ PET/ US,Lung,52000,Cls,https://qidw.rsna.org/
+QIN GBM Treatment Response,2015,2D/ 3D,MR,Brain,54,Cls,https://www.cancerimagingarchive.net/collection/qin-gbm-treatment-response/
+QIN LUNG CT,2015,3D,CT,Lung,47,Cls,https://www.cancerimagingarchive.net/collection/qin-lung-ct/
+QIN-Breast,2015,3D,CT/ MR/ PET,Breast,68,Cls,https://www.cancerimagingarchive.net/collection/qin-breast/
+QIN-HEADNECK,2015,3D,CT/ PET,Head and Neck,279,Seg,https://www.cancerimagingarchive.net/collection/qin-headneck/
+QIN-LungCT-Seg,2015,3D,CT,Chest,31,Seg,https://www.cancerimagingarchive.net/analysis-result/qin-lungct-seg/
+RIDER Lung CT,2015,3D,CT,Lung,32,Seg,https://www.cancerimagingarchive.net/collection/rider-lung-ct/
+RIDER Lung PET-CT,2015,3D,CT/ PET,Lung,243,Cls,https://www.cancerimagingarchive.net/collection/rider-lung-pet-ct/
+Raider,2015,3D,MR,Brain,11,Cls,https://github.com/HaxbyLab/raiders_data
+SPIE-AAPM Lung CT Challenge,2015,3D,CT,Lung,70,Cls,https://www.cancerimagingarchive.net/collection/spie-aapm-lung-ct-challenge/
+SinaFarsiu-010-Rabbani_IOVS_2014,2015,2D,OCT,Retina,24,Seg,https://people.duke.edu/~sf59/software.html
+SinaFarsiu-012-Estrada_TMI_2015,2015,2D,OCT,Retina,60,Seg,https://people.duke.edu/~sf59/software.html
+SinaFarsiu-013-Estrada_PAMI_2015,2015,2D,OCT,Retina,90,Seg,https://people.duke.edu/~sf59/software.html
+Soft-tissue-Sarcoma,2015,3D,CT/ MR/ PET,Extremities,51,Seg,https://www.cancerimagingarchive.net/collection/soft-tissue-sarcoma/
+TCGA-Breast-Radiogenomics,2015,3D,MR,Breast,84,Seg,https://www.cancerimagingarchive.net/analysis-result/tcga-breast-radiogenomics/
+TCGA-KIRC-Radiogenomics,2015,3D,CT/MR,Kidney,103,Cls,https://www.cancerimagingarchive.net/analysis-result/tcga-kirc-radiogenomics/
+TCGA-PRAD,2015,3D,CT/MR/PET,Prostate,14,Cls,https://www.cancerimagingarchive.net/collection/tcga-prad/
+TUPAC,2015,2D,Histopathology (Patch),Brain,573,Reg,https://tupac.grand-challenge.org/TUPAC/
+warwick,2015,2D,Histopathology (Patch),Colon,330,Seg,https://opendatalab.org.cn/warwick
+2-PM Vessel Dataset,2016,2D,Microscopy,Vessel,12,Seg,https://opendatalab.org.cn/2-PM_Vessel_Dataset
+4D-Lung,2016,3D,CT,Lung,20,Seg,https://www.cancerimagingarchive.net/collection/4d-lung/
+ACRIN-FMISO-Brain (ACRIN 6684),2016,3D,CT/MR/ PET,Brain,45,Seg,https://www.cancerimagingarchive.net/collection/acrin-fmiso-brain/
+ACRIN-HNSCC-FDG-PET-CT (ACRIN 6685),2016,3D,CT/MR/NM/PET,Head and Neck,260,Cls,https://www.cancerimagingarchive.net/collection/acrin-hnscc-fdg-pet-ct/
+BigNeuron,2016,2D,NA,Brain,2166,Recon,https://alleninstitute.org/bigneuron/about/
+BraTS 2016,2016,3D,MR,Brain,391,Seg,https://www.smir.ch/BRATS/Start2016
+BreakHis (40x),2016,2D,Histopathology (Patch),Breast,2.0k,Cls,https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/
+BreakHis 100x,2016,2D,Histopathology (Patch),Breast,9.1k,Cls,https://opendatalab.com/BreakHis
+BreakHis 200x,2016,2D,Histopathology (Patch),Breast,9.1k,Cls,https://opendatalab.com/BreakHis
+BreakHis 400x,2016,2D,Histopathology (Patch),Breast,9.1k,Cls,https://opendatalab.com/BreakHis
+Breast-MR-NACT-Pilot,2016,3D,MR,Breast,64,Seg,https://www.cancerimagingarchive.net/collection/breast-mri-nact-pilot/
+CAMELYON17,2016,2D,Histopathology (WSI),Breast,500,Cls,https://camelyon17.grand-challenge.org/Data/
+CREMI,2016,2D,Microscopy,Brain,375,Seg,https://cremi.org/
+Cholec80,2016,Video,Endoscopy,Gallbladder,,Cls,https://github.com/CAMMA-public/TF-Cholec80
+Colorectal Histology MNIST,2016,2D,Histopathology (Patch),Colon,5.0k,Cls,https://zenodo.org/record/53169
+Gastrointestinal Image ANAlysis (GIANA),2016,2D,Endoscopy,Colon,600,Cls,https://giana.grand-challenge.org/
+HVSMR 2016,2016,3D,MR,Heart,20,Seg,http://segchd.csail.mit.edu/data.html
+Harm Avoidance Gray Matter,2016,3D,MR,Brain,95,Cls,https://openneuro.org/datasets/ds000202/versions/00001
+ISIC16,2016,2D,Dermoscopy,Skin,1.3k,Seg,https://challenge.isic-archive.com/landing/2016/
+ISIC17,2016,2D,Dermoscopy,Skin,2.8k,Seg,https://challenge.isic-archive.com/landing/2017/
+ISLES 2016,2016,3D,MR,Brain,75,Seg,http://www.isles-challenge.org/ISLES2016/
+ISPY1 (ACRIN 6657),2016,3D,MR,Breast,847,Seg,https://www.cancerimagingarchive.net/collection/ispy1/
+ImageCLEF 2016,2016,2D,Multi,"Skin, Cell, Breast",31.0k,Cls,https://www.imageclef.org/2016/medical
+Ivy Glioblastoma Atlas Project (IvyGAP),2016,3D,CT/MR,Brain,39,Seg,https://www.cancerimagingarchive.net/collection/ivygap/
+LUNA16,2016,3D,CT,Lung,888,Cls,https://luna16.grand-challenge.org/
+Left Atrial Wall Thickness Challenge,2016,3D,CT/MR,Heart,20,Seg,https://www.cardiacatlas.org/challenges/left-atrial-wall-thickness-challenge/
+Low Dose CT,2016,3D,CT,Liver,30,Det,https://www.aapm.org/GrandChallenge/LowDoseCT/
+MSSEG 2016,2016,2D/ 3D,MR,Brain,15,Seg,https://portal.fli-iam.irisa.fr/msseg-challenge/
+PROSTATEx,2016,3D,MR,Prostate,204,Cls,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=163875860
+Pancreas-CT,2016,3D,CT,Pancreas,80,Seg,https://www.cancerimagingarchive.net/collection/pancreas-ct/
+Prostate Fused-MRI-Pathology,2016,"2D, 3D","MR, Histo",Prostate (Pelvis),29,NA,https://www.cancerimagingarchive.net/collection/prostate-fused-mri-pathology/
+QIN-BRAIN-DSC-MR,2016,3D,MR,Brain,49,Seg,https://www.cancerimagingarchive.net/collection/qin-brain-dsc-mri/
+RetinaCheck (IOSTAR),2016,2D,Fundus,Retina,30,Seg,http://www.retinacheck.org/download-iostar-retinal-vessel-segmentation-dataset
+Surgical tool detection challenge (m2cai16-tool),2016,2D,Endoscopy,Gallbladder,15,Det,http://camma.u-strasbg.fr/m2cai2016/
+TCB-Challenge,2016,2D,X-Ray,Bone,174,Cls,https://www.idpoisson.fr/tcbchallenge/
+TCGA-KICH,2016,3D,CT/MR,Kidney,15,Cls,https://www.cancerimagingarchive.net/collection/tcga-kich/
+TCGA-KIRC,2016,3D,CR/CT/MR,Kidney,2654,Cls,https://www.cancerimagingarchive.net/collection/tcga-kirc/
+TCGA-LUAD,2016,3D,CT/ NM/ PT,Lung,69,Cls,https://www.cancerimagingarchive.net/collection/tcga-luad/
+TCGA-LUSC,2016,3D,CT/ PET,Lung,37,Cls,https://www.cancerimagingarchive.net/collection/tcga-lusc/
+TCGA-OV,2016,3D,CT/ MR/ OT,Ovary,143,Cls,https://www.cancerimagingarchive.net/collection/tcga-ov/
+TCGA-OV-Radiogenomics,2016,3D,CT,Ovary,93,Cls,https://www.cancerimagingarchive.net/analysis-result/tcga-ov-radiogenomics/
+The Digital Mammography DREAM Challenge,2016,2D,Mammography,Breast,640000,Cls,https://www.synapse.org/Synapse:syn4224222/wiki/401743
+UCLA Consortium for Neuropsychiatric Phenomics LA5c Study,2016,3D,MR,Brain,273,Cls,https://openneuro.org/datasets/ds000030/versions/1.0.0
+Ultrasound Nerve Segmentation,2016,2D,US,Brachial Plexus,11.3k,Seg,https://www.kaggle.com/competitions/ultrasound-nerve-segmentation
+Working memory in healthy and schizophrenic individuals,2016,3D,MR,Brain,99,Cls,https://openneuro.org/datasets/ds000115/versions/00001
+m2cai16-tool,2016,Video,Endoscopy,Gallbladder,,Cls,https://service.tib.eu/ldmservice/dataset/m2cai16-tool
+m2cai16-tool-locations,2016,Video,Endoscopy,Gallbladder,,Det,http://ai.stanford.edu/~syyeung/toolDet.html
+m2cai16-workflow,2016,Video,Endoscopy,Gallbladder,,Cls,https://camma.unistra.fr/datasets/
+nanni2016texture,2016,2D,Microscopy,Retina,195,Cls,https://figshare.com/s/d6fb591f1beb4f8efa6f
+xVertSeg,2016,3D,CT,Lumbar vertebrae,25,Seg,http://lit.fe.uni-lj.si/xVertSeg/
+ABVIB,2017,3D,MR,Brain,280,Cls,https://ida.loni.usc.edu/login.jsp?project=ABVIB
+ACDC,2017,3D,MR,Heart,150,Seg,https://www.creatis.insa-lyon.fr/Challenge/acdc/
+ACRIN-FLT-Breast (ACRIN 6688),2017,3D,CT/ PET,Breast,83,Cls,https://www.cancerimagingarchive.net/collection/acrin-flt-breast/
+ADNI,2017,3D,MR/ PET,Brain,2500,Cls,https://adni.loni.usc.edu/
+ADNIDOD,2017,3D,MR/ PET,Brain,195,Cls,https://ida.loni.usc.edu/login.jsp?project=ADNIDOD
+AIBL,2017,3D,MR/ PET,Brain,278,Cls,https://www.aibl.csiro.au/adni/index.html
+BraTS 2017,2017,3D,MR,Brain,477,Seg,https://www.med.upenn.edu/sbia/brats2017/data.html
+BraTS-TCGA-GBM,2017,3D,MR,Brain,135,Seg,https://www.cancerimagingarchive.net/analysis-result/brats-tcga-gbm/
+BraTS-TCGA-LGG,2017,3D,MR,Brain,108,Seg,https://www.cancerimagingarchive.net/analysis-result/brats-tcga-lgg/
+CATARACTS,2017,Video,Microscopy,Retina,,Cls,https://cataracts.grand-challenge.org/
+CC-Radiomics-Phantom,2017,3D,CT,Phantom,17,Cls,https://www.cancerimagingarchive.net/collection/cc-radiomics-phantom/
+CT Medical Images,2017,2D,CT,Lung,475,Seg,https://www.kaggle.com/kmader/siim-medical-images
+Chest X-ray Imaging,2017,2D,X-Ray,Lung,5.9k,Cls,https://www.heywhale.com/mw/dataset/62c2ac49913a54a66037f872
+Crowds-Cure-2017,2017,3D,CT,"Lung, Kidney, Liver, Ovary",352,Seg,https://www.cancerimagingarchive.net/analysis-result/crowds-cure-2017/
+DRHAGIS,2017,2D,Fundus Photo,Retina,40,Seg,https://paperswithcode.com/dataset/dr-hagis
+Data Science Bowl 2017,2017,3D,CT,Lungs,2101,Cls,https://www.kaggle.com/c/data-science-bowl-2017
+Diffusion MR Data Harmonisation,2017,3D,MR,Brain,14,Reg,https://projects.iq.harvard.edu/cdmri2017/challenge
+GIANA,2017,Video,Endoscopy,Colon,,Seg,https://giana.grand-challenge.org/
+HEAR-EU,2017,3D,CT,Cochlea,80,Seg,https://doi.org/10.1038/sdata.2017.132
+Head-Neck-CT-Atlas,2017,3D,CT/ MR/ PET,Head/Neck,215,Seg,https://doi.org/10.7937/K9/TCIA.2017.umz8dv6s
+Head-Neck-PET-CT,2017,3D,CT/ PET,Head and Neck,298,Seg,https://wiki.cancerimagingarchive.net/display/Public/Head-Neck-PET-CT
+HuSHeM,2017,2D,Microscopy,Pelvic,216,Cls,https://opendatalab.com/HuSHeM
+Human Connectome Project (HCP),2017,3D,MR,Brain,1206,Cls,https://www.humanconnectome.org/
+ICIAR 2018 (Microscopy),2017,2D,Microscopy,Breast,400,Cls,https://iciar2018-challenge.grand-challenge.org/Dataset/
+ISLES 2017,2017,3D,MR,Brain,75,Seg,https://www.isles-challenge.org/ISLES2017/
+ImageCLEF 2017 Tuberculosis,2017,3D,CT,Chest,944,Cls,https://www.imageclef.org/2017/tuberculosis
+Intel & MobileODT Cervical Cancer Screening,2017,2D,Colposcopy,Vagina,1993,Cls,https://www.kaggle.com/competitions/intel-mobileodt-cervical-cancer-screening/overview
+KBD,2017,Video,Endoscopy,Kidney,,Seg,https://endovissub2017-kidneyboundarydetection.grand-challenge.org/
+Kavsir,2017,2D,Endoscopy,Colon,14k,Cls,https://datasets.simula.no/kvasir/
+LCTSC,2017,3D,CT,Lung,60,Seg,https://www.cancerimagingarchive.net/collection/lctsc/
+LGG-1p19qDeletion,2017,3D,MR,Brain,159,Seg,https://www.cancerimagingarchive.net/collection/lgg-1p19qdeletion/
+LUAD-CT-Survival,2017,3D,CT,Lung (Thorax),40,Seg,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=24284406
+LiTS,2017,3D,CT,Liver,201,Seg,https://competitions.codalab.org/competitions/17094
+MM-WHS,2017,3D,CT/MR,Heart,120,Seg,http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/mmwhs/
+Mouse-Astrocytoma,2017,3D,MR,Brain,48,Cls,https://www.cancerimagingarchive.net/collection/mouse-astrocytoma/
+NIH Chest X-ray 14,2017,2D,X-Ray,Lung,112.1k,Cls,https://www.kaggle.com/nih-chest-xrays/data
+PROSTATEx-2,2017,3D,MR,Prostate,162,Cls,https://www.aapm.org/GrandChallenge/PROSTATEx-2/
+RETOUCH,2017,3D,OCT,Retina,112,Seg,https://retouch.grand-challenge.org/Home/
+ROCC,2017,3D,OCT,Retina,72,Cls,https://rocc.grand-challenge.org/
+RSNA Bone Age,2017,2D,X-Ray,Hand,14.2k,Est,https://www.rsna.org/rsnai/ai-image-challenge/rsna-pediatric-bone-age-challenge-2017
+Robotic Instrument Segmentation,2017,Video,Endoscopy,Bowel,,Seg,https://endovissub2017-roboticinstrumentseg.grand-challenge.org/
+SurgicalActions160,2017,Video,Endoscopy,Female Reproductive System,,Cls,https://ftp.itec.aau.at/datasets/SurgicalActions160/
+TADPOLE,2017,3D,MR/ PET,Brain,1667,Cls,https://tadpole.grand-challenge.org/Home/
+TCGA-LGG-Mask,2017,3D,MR,Brain,188,Seg,https://www.cancerimagingarchive.net/analysis-result/tcga-lgg-mask/
+WMH,2017,3D,MR,Brain,170,Seg,https://wmh.isi.uu.nl/
+Washington University 120,2017,3D,MR,Brain,120,Rest,https://openneuro.org/datasets/ds000243
+iSeg2017,2017,3D,MR,Brain,23,Seg,https://iseg2017.web.unc.edu/
+2018 Data Science Bowl,2018,2D,Microscopy,Nuclei,670,Seg,https://www.kaggle.com/competitions/data-science-bowl-2018
+ANHIR,2018,2D,Histopathology (WSI),"Kidney, Breast,",481,Reg,https://anhir.grand-challenge.org/
+Atrial Segmentation Challenge,2018,3D,MR,Heart,154,Seg,https://www.cardiacatlas.org/atriaseg2018-challenge/
+B-ALL Classification,2018,2D,Microscopy,Cell,15.1k,Cls,https://competitions.codalab.org/competitions/20395
+BraTS 2018,2018,3D,MR,Brain,542,Seg,https://www.med.upenn.edu/sbia/brats2018/data.html
+Brain Correlates of Math Development,2018,3D,MR,Brain,132,Cls,https://openneuro.org/datasets/ds001486/versions/1.3.1
+CPTAC-CCRCC,2018,2D/ 3D,CT/ MICROSCOPY/ MR,Kidney,262,Cls,https://www.cancerimagingarchive.net/collection/cptac-ccrcc/
+CPTAC-CM,2018,2D/ 3D,CT/ MR/ PT,Skin,95,Seg,https://www.cancerimagingarchive.net/collection/cptac-cm/
+CPTAC-GBM,2018,2D/ 3D,CT/ MICROSCOPY/ MR,Brain,200,Cls,https://www.cancerimagingarchive.net/collection/cptac-gbm/
+CPTAC-HNSCC,2018,3D,CT/MR/WSI,Head and Neck,207,Cls,https://www.cancerimagingarchive.net/collection/cptac-hnscc/
+CPTAC-LSCC,2018,2D/3D,CT/ MICROSCOPY/ PET,Lung,212,Cls,https://www.cancerimagingarchive.net/collection/cptac-lscc/
+CPTAC-LSCC_CT_PET,2018,"2D, 3D","CT, PET, HistoPathology?",NA,238,NA,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=33948248
+CPTAC-LUAD,2018,2D/ 3D,CT/ MR/ PET,Lung,244,Cls,https://www.cancerimagingarchive.net/collection/cptac-luad/
+CPTAC-PDA,2018,3D,CT/ MR/ PET/ US,Pancreas,168,Cls,https://www.cancerimagingarchive.net/collection/cptac-pda/
+CRC100K,2018,2D,Histopathology (Patch),Colon,100k,Cls,https://opendatalab.org.cn/CRC100K/download
+CUMC12,2018,3D,MR,Head and Neck,18,Seg,https://continuousregistration.grand-challenge.org/data/
+Canada OCT Retinal Images (Subset),2018,2D,OCT,Retina,25,Seg,https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP/UIOXXK
+Cataract-101,2018,Video,Microscopy,Retina,,Cls,https://zenodo.org/record/1220951
+Cervix93 Cytology,2018,2D,Microscopy,Cervix,93,Cls,https://github.com/parham-ap/cytology_dataset
+Chest X-ray,2018,2D,X-Ray,Lung,5.9k,Cls,https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+Children Adults Animated Film MR,2018,3D,MR,Brain,155,Rec,https://openneuro.org/datasets/ds000228/versions/1.1.0
+CoNSeP,2018,2D,Histopathology (Patch),Colon,41,Seg,https://warwick.ac.uk/fac/sci/dcs/research/tia/data/hovernet/
+Continuous Registration DIRLAB,2018,3D,CT,Lungs,20,"Reg
+lmk",https://continuousregistration.grand-challenge.org/data/
+Continuous Registration ISBR18,2018,3D,MR,Brain,18,Seg,https://continuousregistration.grand-challenge.org/home/
+CuRIOUS2018-MR FLAIR,2018,3D,MR/ US,Brain,33,Reg,https://curious2018.grand-challenge.org/
+CuRIOUS2018-MR T1W,2018,3D,MR/ US,Brain,33,Reg,https://curious2018.grand-challenge.org/Home/
+CuRIOUS2018-US,2018,3D,MR/ US,Brain,32,Reg,https://curious2018.grand-challenge.org/
+DICOM-LIDC-IDRI-Nodules,2018,3D,CT,Lung,875,Seg,https://www.cancerimagingarchive.net/analysis-result/dicom-lidc-idri-nodules/
+DeepLesion,2018,2D/3D,CT,"Bone, Abdomen, Mediastinum, Liver, Lung, Kidney...",32735,Det,https://nihcc.app.box.com/v/DeepLesion
+EAD19,2018,2D,Endoscopy,"Stomach, Bladder, Colon",2.1k,Det,https://ead2019.grand-challenge.org/Data/
+EndoVis 2018 - RSS,2018,2D,Endoscopy,NA,2.8k,Seg,https://endovissub2018-roboticscenesegmentation.grand-challenge.org/home/
+EndoVis 2018-SWAS,2018,Video,Endoscopy,Colon,,Cls,https://endovissub2017-workflow.grand-challenge.org/
+EndoVis18-RSS,2018,Video,Endoscopy,Abdomen,,Seg,https://endovissub2018-roboticsceneseg.grand-challenge.org/Data/
+FUMPE,2018,3D,CT,Lung,35,Seg,https://www.kaggle.com/andrewmvd/pulmonary-embolism-in-ct-images
+HC18,2018,2D,US,Skull,1.3k,Meas,https://hc18.grand-challenge.org/
+HNSCC-3DCT-RT,2018,3D,CT,Head and Neck,31,Seg,https://www.cancerimagingarchive.net/collection/hnscc-3dct-rt/
+Histopathologic Cancer Det,2018,2D,Histopathology (Patch),Lymph,220k,Cls,https://www.kaggle.com/competitions/histopathologic-cancer-detection
+ICIAR 2018 (WSI),2018,2D,"Microscopy, WSI",NA,400,Seg,https://iciar2018-challenge.grand-challenge.org/
+IDRID2018,2018,2D,Fundus Photo,Retina,81,Seg,https://idrid.grand-challenge.org/
+ISIC18,2018,2D,Dermoscopy,Skin,2.7k,Seg,https://workshop2018.isic-archive.com/
+ISLES 2018,2018,3D,MR,Brain,103,Seg,http://www.isles-challenge.org/ISLES2018/
+IVDM3Seg,2018,3D,MR,Intervertebral Discs,96,Seg,https://ivdm3seg.weebly.com/
+ImageCLEFtuberculosis 2018,2018,3D,CT,Chest,1513,Cls,https://www.imageclef.org/2018/tuberculosis
+Kumar,2018,2D,Histopathology (Patch),Cell,54,Seg,https://opendatalab.org.cn/Kumar/download
+LUMIC,2018,3D,CT,Lung,13,Seg,https://lumic.grand-challenge.org/
+Lung-Fused-CT-Pathology,2018,"2D, 3D","CT, HistoPathology?",Lung,36,Seg,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=39878702
+MGH10,2018,3D,MR,Brain,10,Seg,https://continuousregistration.grand-challenge.org/data/
+MRBrainS18,2018,3D,MR,Brain,30,Seg,https://mrbrains18.isi.uu.nl/data/
+MRI-DIR,2018,3D,CT/MR,Head-Neck,9,Reg,https://www.cancerimagingarchive.net/collection/mri-dir/
+MRL Eye Eye state cls,2018,2D,Infrared,Retina,84.9k,Cls,http://mrl.cs.vsb.cz/eyedataset
+MRL Eye Gender,2018,2D,Infrared Reflectance Imaging,Retina,84898,Cls,http://mrl.cs.vsb.cz/eyedataset
+MRL Eye Glasses cls,2018,2D,Infrared,Retina,84.9k,Cls,http://mrl.cs.vsb.cz/eyedataset
+MRL Eye Image quality cls,2018,2D,Infrared,Retina,84.9k,Cls,http://mrl.cs.vsb.cz/eyedataset
+MRL Eye Reflections cls,2018,2D,Infrared,Retina,84.9k,Cls,http://mrl.cs.vsb.cz/eyedataset
+MRL Eye Sensor type cls,2018,2D,Infrared,Retina,84.9k,Cls,http://mrl.cs.vsb.cz/eyedataset
+MRNet,2018,3D,MR,Knee,1370,Cls,https://stanfordmlgroup.github.io/competitions/mrnet/
+MSD01 BrainTumour,2018,3D,MR,Brain,750,Seg,http://medicaldecathlon.com/
+MSD02 Heart,2018,3D,MR,Heart,30,Seg,http://medicaldecathlon.com/
+MSD03-Liver,2018,3D,CT,Liver,210,Seg,http://medicaldecathlon.com/
+MSD04 Hippocampus,2018,3D,MR,Hippocampus,394,Seg,http://medicaldecathlon.com/
+MSD05 Prostate,2018,3D,MR,Prostate,48,Seg,http://medicaldecathlon.com/
+MSD06-Lung,2018,3D,CT,Lung,96,Seg,http://medicaldecathlon.com/
+MSD07-Pancreas,2018,3D,CT,Pancreas,420,Seg,http://medicaldecathlon.com/
+MSD08-HepaticVessel,2018,3D,CT,Liver,443,Seg,http://medicaldecathlon.com/dataaws/
+MSD09-Spleen,2018,3D,CT,Spleen,61,Seg,http://medicaldecathlon.com/
+MSD10-Colon,2018,3D,CT,Colon,190,Seg,http://medicaldecathlon.com/
+Mandibular-CT-Dataset,2018,3D,CT,Mandible,10,Seg,https://figshare.com/articles/dataset/Mandibular_CT_Dataset_Collection/6167726/5
+MoNuSeg,2018,2D,Histopathology (Patch),Nuclei,51,Seg,https://monuseg.grand-challenge.org/Home/
+Multi-echo Cambridge,2018,3D,MR,Brain,89,Rec,https://openneuro.org/datasets/ds000258/versions/1.0.0
+NSCLC-Cetuximab (RTOG-0617),2018,3D,CT,Chest,490,Cls,https://www.cancerimagingarchive.net/collection/nsclc-cetuximab/
+OCT Glaucoma Detection,2018,3D,OCT,Optic nerve head,1110,Cls,https://doi.org/10.5281/zenodo.1481223
+OCT2017,2018,2D,OCT,Retina,83.5k,Cls,https://www.kaggle.com/paultimothymooney/kermany2018/code
+Ophthalmic Slit Lamp,2018,2D,Fundus,Retina,60,NA,https://plos.figshare.com/articles/dataset/Predicting_the_progression_of_ophthalmic_disease_based_on_slit-lamp_images_using_a_deep_temporal_sequence_network/6883823
+PCam,2018,2D,Histopathology (Patch),Breast,328k,Seg,https://opendatalab.com/PCam
+Papilledema,2018,2D,Fundus Photo,Retina,1.4k,Cls,https://www.kaggle.com/datasets/shashwatwork/identification-of-pseudopapilledema
+PatchCamelyon,2018,2D,Histopathology (Patch),Lymph Node,295k,Cls,https://patchcamelyon.grand-challenge.org/
+QIN-PROSTATE-Repeatability,2018,3D,MR,Prostate,15,Seg,https://www.cancerimagingarchive.net/collection/qin-prostate-repeatability/
+RSNA Pneumonia Detection,2018,2D,X-Ray,Lung,26.7k,Det,https://www.kaggle.com/competitions/rsna-pneumonia-detection-challenge
+Retinal Fundus Imgs for Glaucoma,2018,2D,Fundus,Retina,2.9k,Cls,https://deepblue.lib.umich.edu/data/concern/data_sets/3b591905z?locale=en
+SZ-CXR,2018,2D,X-Ray,Lung,566,Seg,https://arxiv.org/pdf/1803.01199v1.pdf
+Stockholm Sleepy Brain Study,2018,3D,MR,Brain,84,Cls,https://openneuro.org/datasets/ds000201/versions/1.0.3
+TIL-WSI-TCGA,2018,2D,Histopathology (WSI),Multi-organ,5.2k,Cls,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=33948919
+rsfMR comorbidity SmokingandSchizophrenia,2018,3D,MR,Brain,92,Cls,https://openneuro.org/datasets/ds001461/versions/1.0.3
+AAPM-RT-MAC,2019,3D,MR,Head-Neck,55,Seg,https://www.cancerimagingarchive.net/collection/aapm-rt-mac/
+AASCE,2019,2D,X-Ray,Spine,609,Reg,https://aasce19.grand-challenge.org/Award/
+ACDC-LungHP,2019,2D,Histopathology (WSI),Lung,200,Seg,https://acdc-lunghp.grand-challenge.org/
+ACRIMA,2019,2D,Fundus,Retina,705,Cls,https://figshare.com/s/c2d31f850af14c5b5232
+ACRIN-DSC-MR-Brain (ACRIN 6677),2019,2D/3D,CT/MR,Brain,123,Cls,https://www.cancerimagingarchive.net/collection/acrin-dsc-mr-brain/
+AML-Cytomorphology_LMU,2019,2D,Histopathology (WSI),Blood,18.4k,Cls,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=61080958
+APTOS 2019 Blindness Det.,2019,2D,Fundus,Retina,5.6k,Cls,https://www.kaggle.com/competitions/aptos2019-blindness-detection/overview
+Anti-PD-1 Immunotherapy Melanoma,2019,3D,CT/ MR/ PT,Skin,47,Cls,https://www.cancerimagingarchive.net/collection/anti-pd-1_melanoma/
+Anti-PD-1 Lung,2019,3D,CT/ PET/ SC,Lung,46,Cls,https://www.cancerimagingarchive.net/collection/anti-pd-1_lung/
+BUSI,2019,2D,US,Breast,647,Seg,https://scholar.cu.edu.eg/?q=afahmy/pages/dataset
+Blood Cell Images,2019,2D,Histopathology (Patch),Blood,12.5k,Det,https://www.heywhale.com/mw/dataset/5d9ea5a9037db3002d3ec502
+BraTS 2019,2019,3D,MR,Brain,626,Seg,https://www.med.upenn.edu/cbica/brats2019/data.html
+Brain CT Images with ICH Masks,2019,2D,CT,Brain,82,Seg,https://www.kaggle.com/datasets/vbookshelf/computed-tomography-ct-images
+Breast Cancer Seg,2019,2D,Histopathology (Patch),Breast,151,Seg,https://bcsegmentation.grand-challenge.org/
+C-NMC 2019,2019,2D,Histopathology (WSI),Blood,15.1k,Cls,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=52758223
+CAMUS,2019,2D,US,Heart,1.8k,Seg,http://camus.creatis.insa-lyon.fr/challenge/
+CBC (Counting),2019,2D,Microscopy,Full Body,420,Reg,https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset
+CBC (Detection),2019,2D,Microscopy,Full Body,420,Det,https://github.com/MahmudulAlam/Complete-Blood-Cell-Count-Dataset
+CC-Radiomics-Phantom-2,2019,3D,CT,Phantom,251,-,https://www.cancerimagingarchive.net/collection/cc-radiomics-phantom-2/
+CC-Radiomics-Phantom-3,2019,3D,CT,Head/Chest,275,Seg,https://www.cancerimagingarchive.net/collection/cc-radiomics-phantom-3/
+CHAOS CT,2019,3D,CT,Liver,40,Seg,https://chaos.grand-challenge.org/
+CHAOS MRI,2019,3D,CT/MR,Abdomen,160,Seg,https://chaos.grand-challenge.org/
+CPTAC-AML,2019,2D,Histopathology (WSI),Bone Marrow,122,NA,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=47677483
+CPTAC-SAR,2019,2D/ 3D,CT/ MR/ PET/ US,Abdomen/ Arm/ Bladder/ Chest/ Head–Neck/ Kidney/ Leg/...,88,Cls,https://www.cancerimagingarchive.net/collection/cptac-sar/
+CPTAC-UCEC,2019,2D/ 3D,CT/ MR/ PET/ US,Uterus,250,Cls,https://www.cancerimagingarchive.net/collection/cptac-ucec/
+CRAG,2019,2D,Histopathology (Patch),Colon,213,Seg,https://github.com/XiaoyuZHK/CRAG-Dataset_Aug_ToCOCO
+CT-ORG,2019,3D,CT,"Bladder, Bone, Brain, Kidney, Liver, Lung",140,Seg,https://www.cancerimagingarchive.net/collection/ct-org/
+CTVIE19,2019,3D,CT,Lung,64,Seg,https://www.aapm.org/GrandChallenge/CTVIE/default.asp
+CaDIS,2019,Video,Microscopy,"Retina, Iris, Pupil",,Seg,https://cataracts.grand-challenge.org/CaDIS/
+CellTracking2019,2019,2D,Microscopy,Cell,1.4M,Tracking,http://celltrackingchallenge.net/
+Continuous Registration,2019,3D,CT/MR,Lung/Brain,142,Reg,https://continuousregistration.grand-challenge.org/home/
+Corneal Endothelial Cell,2019,2D,Microscopy,Retina,385,Seg,https://github.com/daboe01/SREP-18-33533B
+Cross-Sectional Multidomain Lexical Processing,2019,3D,MR,Brain,91,Cls,https://openneuro.org/datasets/ds002236/versions/1.1.0
+Crowds-Cure-2018,2019,3D,CT,Bladder/ Brain/ Colon/ Head-Neck/ Kidney/ Lung/ Pancr,324,Det,https://www.cancerimagingarchive.net/analysis-result/crowds-cure-2018/
+CuRIOUS2019,2019,3D,MR/ US,Brain,33,Reg,https://curious2019.grand-challenge.org/Home/
+CuRIOUS2019 US,2019,3D,MR/ US,Brain,33,Reg,https://curious2019.grand-challenge.org/Home/
+CuRIOUS2019-MR T1W,2019,3D,MR/ US,Brain,33,Reg,https://curious2019.grand-challenge.org/
+CuRIOUS2019-MR-FLAIR,2019,3D,MR/ US,Brain,32,Reg,https://curious2019.grand-challenge.org/Data/
+DigestPath19,2019,2D,Histopathology (WSI),Colon,212,Det,https://digestpath2019.grand-challenge.org/Home/
+Dynamic Passive Threat,2019,3D,MR,Brain,295200,Cls,https://openneuro.org/datasets/ds002320/versions/1.1.0
+EndoCV2020-Sub Challenge1,2019,2D,Endoscopy,Colon,2.3k,Seg,https://endocv.grand-challenge.org/
+EndoCV2020-Sub Challenge2,2019,2D,Endoscopy,NA,386,Det,https://edd2020.grand-challenge.org/
+EndoVis 2019-SWSA,2019,Video,Endoscopy,Gallbladder,,Cls,https://endovissub-workflowandskill.grand-challenge.org/EndoVisSub-WorkflowAndSkill/
+Endovis 2019-SCRE,2019,Video,Endoscopy,Porcine cadaver,,Recon,https://endovissub2019-scared.grand-challenge.org/
+FMD,2019,2D,Microscopy,Surface,5.1k,Seg,https://github.com/yinhaoz/denoising-fluorescence
+Finding and Measuring Lungs in CT Data,2019,"2D, 3D",CT,Lung,534,Seg,https://www.heywhale.com/mw/dataset/5d71de448499bc002c0ae1fc
+Gleason,2019,2D,Histopathology (Patch),Prostate,331,Seg,https://gleason2019.grand-challenge.org/Home/
+HEROHE,2019,2D,Histopathology (WSI),Lung,510,Cls,https://ecdp2020.grand-challenge.org/Home/
+Head CT Image Data,2019,2D,CT,Head,200,Cls,https://www.heywhale.com/mw/dataset/5d7213eb8499bc002c0af1e8
+Head-Neck-Radiomics-HN1,2019,3D,CT/ PET,Head/ Neck,137,Seg,https://www.cancerimagingarchive.net/collection/head-neck-radiomics-hn1/
+Human Activity Classification with Radar,2019,2D,Others,NA,1854,Cls,https://humanactivitiyclassificationwithradar.grand-challenge.org/
+ISIC19,2019,2D,Dermoscopy,Skin,25.3k,Cls,https://challenge2019.isic-archive.com/
+IronTract Challenge 2019,2019,3D,MR,Brain,2,Trk,https://irontract.mgh.harvard.edu/
+JSIEC,2019,2D,Fundus,Retina,1k,Cls,https://www.kaggle.com/datasets/linchundan/fundusimage1000
+KiTS19,2019,3D,CT,Kidneys,300,Seg,https://kits19.grand-challenge.org/
+LC25000,2019,2D,Histopathology (Patch),Colon,25k,Cls,https://opendatalab.com/LC25000
+LNDb,2019,3D,CT,Lung,294,Seg,https://lndb.grand-challenge.org/
+LYON19,2019,2D,Histopathology (Patch),Lymphocyte,441,Cls,https://lyon19.grand-challenge.org/
+Lymphocyte Assessment,2019,2D,Histopathology (Patch),Lymphocyte,20k,Cls,https://lysto.grand-challenge.org/
+MEMENTO,2019,3D,MR,Brain,1536,Reg,https://my.vanderbilt.edu/memento/sub-challenge-2/
+MHSMA,2019,2D,Microscopy,NA,1.5k,Cls,https://github.com/soroushj/mhsma-dataset
+MPI-Leipzig Mind-Brain-Body,2019,3D,EEG/MR,Brain,318,Cls,https://openneuro.org/datasets/ds000221/versions/1.0.0
+MUDI2019,2019,3D,MR,Brain,1344,Rec,http://cmic.cs.ucl.ac.uk/cdmri19/challenge.html
+MiMM_SBILab,2019,2D,Histopathology (WSI),Bone Marrow,85,Loc,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=52756988
+MoNuSAC2020,2019,2D,Histopathology (Patch),"Lung, Prostate,",914,Seg,https://monusac-2020.grand-challenge.org/
+Mouse rest multicentre,2019,3D,MR,Brain,255,Cls,https://openneuro.org/datasets/ds001720
+NARPS,2019,3D,MR,Brain,108,Cls,https://openneuro.org/datasets/ds001734
+NSCLC-Radiomics-Interobserver1,2019,3D,CT,Lung,22,Seg,https://www.cancerimagingarchive.net/collection/nsclc-radiomics-interobserver1/
+Narratives,2019,3D,MR,Brain,891,Cls,https://openneuro.org/datasets/ds002345
+OASIS-3,2019,3D,CT/MR/ PET,Brain,5699,Seg,https://www.oasis-brains.org/
+ODIR,2019,2D,Fundus Photo,Retina,8k,Cls,https://odir2019.grand-challenge.org/
+OIA-ODIR,2019,2D,Fundus,NA,10k,Cls,https://odir2019.grand-challenge.org/introduction/
+Osteosarcoma Tumor Assessment,2019,2D,Histopathology (WSI),Bone,1.1k,Cls,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=52756935
+PDMR-BL0293-F563,2019,3D,MR,Liver/Bone,19,Cls,https://www.cancerimagingarchive.net/collection/pdmr-bl0293-f563/
+Pelvic-Reference-Data,2019,3D,CBCT/CT,Pelvis,58,Reg,https://www.cancerimagingarchive.net/collection/pelvic-reference-data/
+Post-NAT-BRCA,2019,2D,Histopathology (WSI),Breast,96,Cls,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=52758117
+QIN-BREAST-02,2019,3D,MR,Breast,13,Cls,https://www.cancerimagingarchive.net/collection/qin-breast-02/
+ROBUST-MIS,2019,Video,Endoscopy,Colon,,Seg,https://www.synapse.org/Synapse:syn18779624/wiki/592660
+RSNA Intracranial Hemorrhage Detection,2019,2D,CT,Brain,874k,Loc,https://www.kaggle.com/c/rsna-intracranial-hemorrhage-detection/data
+Resting State Bilinguals,2019,3D,MR,Brain,823,Cls,https://openneuro.org/datasets/ds001747/versions/1.0.0
+Retina,2019,2D,Fundus,Retina,601,Cls,https://www.kaggle.com/datasets/jr2ngb/cataractdataset
+SIMON Dataset,2019,3D,MR,Brain,73,Reg,https://doi.org/10.15387/fcp_indi.retro.simon
+SLN-Breast,2019,2D,Histopathology (WSI),Lymph,166,Cls,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=52763339
+SN-AM,2019,2D,Histopathology (Patch),Lymph Node,190,Seg,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=52757009
+SegTHOR,2019,3D,CT,"Heart, Aorta, Trachea, Esophagus",60,Seg,https://competitions.codalab.org/competitions/21145
+StructSeg2019 Task 1,2019,3D,CT,Head and Neck,60,Seg,https://structseg2019.grand-challenge.org/
+StructSeg2019 Task 2,2019,3D,CT,Head and Neck,60,Seg,https://structseg2019.grand-challenge.org/
+StructSeg2019 Task 3,2019,3D,CT,Chest,60,Seg,https://structseg2019.grand-challenge.org/
+StructSeg2019 Task 4,2019,3D,CT,Lung,60,Seg,https://structseg2019.grand-challenge.org/
+VARPA,2019,2D,Fundus,Retina,58,Cls,http://www.varpa.es/research/ophtalmology.html
+VICTRE,2019,2D,X-Ray,Breast,217.9k,NA,https://www.cancerimagingarchive.net/collection/victre/
+VerSe19,2019,3D,CT,Spine,160,Seg,https://verse2019.grand-challenge.org/
+Vitiligo Images,2019,2D,Dermoscopy,Skin,368,NA,https://www.heywhale.com/mw/dataset/5ddca5fbca27f8002c4a1614
+Yangxi,2019,2D,Fundus,Retina,20.4k,Cls,https://zenodo.org/record/3393265
+iChallenge - AGE19,2019,2D,OCT,Retina,1.6k,Cls,https://age.grand-challenge.org/
+iChallenge-PALM19,2019,2D,Fundus,Retina,800,Seg,https://palm.grand-challenge.org/
+iSeg-2019,2019,3D,MR,Brain,39,Seg,https://iseg2019.web.unc.edu/
+A-AFMA,2020,Video,Ultrasound,Bladder,,Det,https://a-afma.grand-challenge.org/
+ABCs,2020,3D,CT/MR,Brain,75,Seg,https://abcs.mgh.harvard.edu/index.php/data/data-description
+ACRIN-NSCLC-FDG-PET (ACRIN 6668),2020,3D,CT/ PET,Lung,242,Cls,https://www.cancerimagingarchive.net/collection/acrin-nsclc-fdg-pet/
+ADAM2020,2020,3D,MR,Brain,255,Seg,https://adam.isi.uu.nl/
+BIMCV COVID-19+,2020,2D/ 3D,CT/ X-RAY,Lung,2428,Seg,https://bimcv.cipf.es/bimcv-projects/bimcv-covid19/
+BOLD Verb Generation,2020,4D,MR,Brain,143,Reg,https://openneuro.org/datasets/ds003145/versions/1.0.2
+BraTS 2020,2020,3D,MR,Brain,660,Seg,https://www.med.upenn.edu/cbica/brats2020/data.html
+Brain-MRI,2020,2D,MR,Brain,110,Seg,https://tianchi.aliyun.com/dataset/127583
+BrainMetShare,2020,3D,MR,Brain,156,Seg,https://stanfordaimi.azurewebsites.net/datasets/ae0182f1-d5b6-451a-8177-d1f39f019962
+Breast Cancer Cell Seg 2,2020,2D,Histopathology (Patch),Breast,58,Seg,https://www.heywhale.com/mw/dataset/5e9e9b35ebb37f002c625423
+Breast Cancer Cell Seg Dataset,2020,2D,Histopathology (Patch),"Breast, Cell",58,Seg,https://www.heywhale.com/mw/dataset/5e9c625bebb37f002c61526a
+CADA,2020,3D,3D DSA,Brain,131,Seg,https://cada.grand-challenge.org/
+CADA-AS,2020,3D,3D DSA,Brain,110,Seg,https://cada-as.grand-challenge.org/
+CADA-RRE,2020,3D,3D DSA,Brain,131,Seg,https://cada-rre.grand-challenge.org/
+CAMR Rat Brain MR Data,2020,3D,MR,Brain,264,Reg,https://openneuro.org/datasets/ds002870/versions/1.0.1
+COVID-19-20 Lung CT Lesion Segmentation Challenge,2020,3D,CT,Lung,295,Seg,https://covid-segmentation.grand-challenge.org/COVID-19-20/
+COVID-19-AR,2020,2D/ 3D,CT/ X-RAY,Chest,105,Cls,https://www.cancerimagingarchive.net/collection/covid-19-ar/
+COVID-19-Image,2020,2D,X-Ray,Lung,93,Cls,https://github.com/ieee8023/covid-chestxray-dataset
+COVIDGR,2020,2D,X-Ray,Lung,852,Cls,https://github.com/ari-dasci/OD-covidgr
+COVIDx CXR-2,2020,2D,X-Ray,Lung,30.9k,Cls,https://www.kaggle.com/andyczhao/covidx-cxr2
+CPCXR,2020,2D,X-Ray,Lung,1.2k,NA,https://opendatalab.org.cn/CPCXR/download
+CRC_FFPE-CODEX_CellNeighs,2020,2D,Histopathology (WSI),Colorectal,200,NA,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70227790
+CT Images in COVID-19,2020,3D,CT,Chest,771,Cls,https://www.cancerimagingarchive.net/collection/ct-images-in-covid-19/
+CTPelvic1K,2020,3D,CT,Pelvic,1184,Seg,https://github.com/MIRACLE-Center/CTPelvic1K
+Cardiac Atrial Images,2020,2D,MR,Atrium,8k,Seg,https://www.heywhale.com/mw/dataset/5e4de9618ee624002d4c4117
+CatRelDet,2020,Video,Microscopy,Retina,,Cls,https://ftp.itec.aau.at/datasets/ovid/relevant-cat-actions/index.html
+Chest CT Scans with COVID-19,2020,3D,CT,Chest,20,Cls,https://www.kaggle.com/datasets/soham1024/chest-ct-scans-with-covid19
+CholecSeg8k,2020,Video,Endoscopy,Gallbladder,,Seg,https://huggingface.co/datasets/minwoosun/CholecSeg8k
+Cognitive Training,2020,3D,MR,Brain,166,Cls,https://openneuro.org/datasets/ds002843/versions/1.0.1
+CoronaHack,2020,2D,X-Ray,Lung,5.9k,Cls,https://www.kaggle.com/praveengovi/coronahack-chest-xraydataset
+Cranium Image Dataset,2020,2D,CT,Brain,50,Det,https://tianchi.aliyun.com/dataset/dataDetail?dataId=82967
+Cue Induced Craving MR,2020,3D,MR,Brain,598,Rec,https://openneuro.org/datasets/ds003242
+DDTI,2020,2D,US,Thyroid,637,Seg,https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation
+DFUC 2020,2020,2D,Dermoscopy,Foot,2.0k,Seg,https://dfu-challenge.github.io/
+DICOM-Glioma-SEG,2020,3D,MR,Brain,167,Seg,https://www.cancerimagingarchive.net/analysis-result/dicom-glioma-seg/
+DLBCL-Morph,2020,2D,Microscopy,Retina,152.2k,Reg,https://github.com/stanfordmlgroup/DLBCL-Morph
+DeepDR-Task1,2020,2D,Fundus Photo,Eye Vessel,2k,Cls,https://isbi.deepdr.org/
+DeepDR-Task2,2020,2D,Fundus,NA,2k,Reg,https://isbi.deepdr.org/
+DeepDR-Task3,2020,2D,Fundus,NA,246,Cls,https://isbi.deepdr.org/
+EMIDEC,2020,3D,MR,Heart,150,Seg,https://emidec.com/
+EchoNet-Dynamic,2020,Video,Ultrasound,Heart,,Measurement,https://echonet.github.io/dynamic/index.html
+Emotion Regulation Ageing Brain,2020,3D,MR,Brain,34,Cls,https://openneuro.org/datasets/ds002620/versions/1.0.0
+EndoVis 2020-CATARACTS Workflow,2020,Video,Endoscopy,Retina,,Cls,https://cataracts2020.grand-challenge.org/
+EndoVis 2020-MISAW,2020,Video,RGB,Artificial vessel,,Cls,https://www.synapse.org/Synapse:syn21776936/wiki/601700
+EndoVis20-CATARACTS,2020,Video,Endoscopy,NA,,Seg,https://cataracts2020.grand-challenge.org/
+FocusPath,2020,2D,Histopathology (Patch),NA,864,IQA,https://www.heywhale.com/mw/dataset/5e85dc8b95b029002ca7ea03
+Glaucoma Detection,2020,2D,Fundus,Retina,650,Cls,https://www.kaggle.com/datasets/sshikamaru/glaucoma-detection
+HECKTOR 2020,2020,3D,CT/ PET,Head and Neck,254,Seg,https://www.aicrowd.com/challenges/miccai-2020-hecktor
+HEp-2 Cell Classification,2020,2D,Histopathology (Patch),Cell,13.6k,Cls,https://www.heywhale.com/mw/dataset/5ec3c6883241a100378d5d4a
+HNSCC,2020,3D,CT/MR/PET,Head and Neck,627,Seg,https://www.cancerimagingarchive.net/collection/hnscc/
+HNSCC-mIF-mIHC,2020,2D,Histopathology (Patch),Head,k,No,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70226184
+HuBMAP,2020,2D,Histopathology (Patch),Kidney,15,Seg,https://www.kaggle.com/competitions/hubmap-kidney-segmentation/overview
+HyperKvasir,2020,2D+Video,Endoscopy,"Esophagus, Stomach, Colon",6.5k,Cls,https://datasets.simula.no/hyper-kvasir/
+IRMA X-ray,2020,2D,X-Ray,"Brain, Lung",14.7k,Cls,https://www.kaggle.com/raddar/irma-xray-dataset
+ISIC20,2020,2D,Dermoscopy,Skin,33.1k,Cls,https://challenge.isic-archive.com/
+Individual Brain Charting (IBC),2020,3D,MR,Brain,600,Cls,https://project.inria.fr/IBC/
+IvyGAP-Radiomics,2020,3D,MR,Brain,37,Seg,https://www.cancerimagingarchive.net/analysis-result/ivygap-radiomics/
+KNOAP2020,2020,"2D, 3D","MR, X-Ray",Knee,30,Pred,https://knoap2020.grand-challenge.org/Home/
+Knee Osteoarthritis Dataset,2020,2D,X-Ray,Knee,0,Cls,https://www.kaggle.com/datasets/shashwatwork/knee-osteoarthritis-dataset-with-severity/data
+Kvasir-SEG,2020,2D,Endoscopy,Bowel,8k,Seg,https://tianchi.aliyun.com/dataset/dataDetail?dataId=84385
+LDCT-and-Projection-data,2020,3D,CT,"Head, Chest, Abdomen",299,Rec,https://www.cancerimagingarchive.net/collection/ldct-and-projection-data/
+Learn2Reg Abdomen CT-CT,2020,3D,CT,Abdomen,50,Reg,https://learn2reg.grand-challenge.org/
+Learn2Reg Hippocampus MR,2020,3D,MR,Brain,263,Reg,https://learn2reg.grand-challenge.org/
+Learn2Reg Lung CT,2020,3D,CT,Thorax,30,Reg,https://learn2reg.grand-challenge.org/
+Learn2Reg OASIS,2020,3D,MR,Brain,416,Reg,https://learn2reg.grand-challenge.org/
+LoDoPaB-CT,2020,2D,CT,Lung,28,Recon,https://lodopab.grand-challenge.org/
+Lung and Colon Histopathology,2020,2D,Histopathology (Patch),"Lung, Colon",25k,Cls,https://www.heywhale.com/mw/dataset/5e956c33e7ec38002d03132c
+Lung-PET-CT-Dx,2020,3D,CT/ PET,Lung,355,Cls,https://www.cancerimagingarchive.net/collection/lung-pet-ct-dx/
+M&Ms,2020,3D,MR,Heart,375,Seg,https://www.ub.edu/mnms/
+MIDRC-RICORD-1a,2020,3D,CT,Chest,120,Seg,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=133072661
+MRQy-Quality-Measures,2020,3D,MR,"Brain, Cervix",233,QA,https://www.cancerimagingarchive.net/analysis-result/mrqy-quality-measures/
+Malignant Lymphoma Cls Dataset,2020,2D,Histopathology (Patch),Lymph,374,Cls,https://www.heywhale.com/mw/dataset/5e9d607febb37f002c61ad3a
+MedMNIST,2020,2D,Multi,"Retina, Breast, Lung",100k,Cls,https://medmnist.com/v1
+MitoEM,2020,3D,3D MICROSCOPY,Brain,2,Seg,https://mitoem.grand-challenge.org/
+MyoPS2020,2020,3D,MR,Heart,45,Seg,http://www.sdspeople.fudan.edu.cn/zhuangxiahai/0/MyoPS20/
+OPC-Radiomics,2020,3D,CT,Head and Neck,606,Seg,https://www.cancerimagingarchive.net/collection/opc-radiomics/
+ORVS,2020,2D,Fundus,Retina,49,Seg,https://opendatalab.org.cn/ORVS
+OSIC Pulmonary Fibrosis Progression,2020,3D,CT,Lung,200,Reg,https://www.kaggle.com/competitions/osic-pulmonary-fibrosis-progression
+OpenKBP,2020,3D,CT,Head and Neck,340,Reg,https://www.aapm.org/GrandChallenge/OpenKBP/
+OralCancer,2020,2D,Digital Photography,"Lip, Tongue",131,Cls,https://www.kaggle.com/datasets/shivam17299/oral-cancer-lips-and-tongue-images
+PAD-UFES-20,2020,2D,Dermoscopy,Skin,2.3k,Cls,https://data.mendeley.com/datasets/zr7vgbcyr2/1
+PAIP2020,2020,2D,Histopathology (WSI),Liver,118,Cls,https://paip2020.grand-challenge.org/Home/
+PANDA,2020,2D,Histopathology (Patch),Prostate,10.6k,Cls,https://www.kaggle.com/c/prostate-cancer-grade-assessment/data?select=train.csv
+PANDA_karolinska,2020,2D,Histopathology (Patch),Prostate,5.5k,Seg,https://www.kaggle.com/c/prostate-cancer-grade-assessment/data?select=train.csv
+PANDA_radboud,2020,2D,Histopathology (Patch),Prostate,5.1k,Seg,https://www.kaggle.com/c/prostate-cancer-grade-assessment/data?select=train.csv
+PDMR-292921-168-R,2020,3D,MR/SR,Abdomen,20,Cls,https://www.cancerimagingarchive.net/collection/pdmr-292921-168-r/
+PDMR-833975-119-R,2020,3D,CT/MR/PET,Pancreas,20,Cls,https://doi.org/10.7937/TCIA.0ECK-C338
+PDMR-997537-175-T,2020,3D,MR/SR,Colon,24,Cls,https://www.cancerimagingarchive.net/collection/pdmr-997537-175-t/
+PETfrog,2020,3D,MR/ PET,Brain,238,Cls,https://openneuro.org/datasets/ds002385/versions/1.1.0
+PROSTATEx-Seg-HiRes,2020,3D,MR,Prostate,66,Seg,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=61080779
+PROSTATEx-Seg-Zones,2020,3D,MR,Prostate,98,Seg,https://www.cancerimagingarchive.net/analysis-result/prostatex-seg-zones/
+Pan-Cancer-Nuclei-Seg,2020,2D,Histopathology (WSI),Multi-organ,5.1k,Seg,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=64685083
+PathologyVQA,2020,2D,Histopathology (Patch),Full Body,5.0k,VQA,https://pathvqachallenge.grand-challenge.org/
+PleThora,2020,3D,CT,Thoracic,402,Seg,https://www.cancerimagingarchive.net/analysis-result/plethora/
+Pneumothorax Masks X-Ray,2020,2D,X-Ray,Lung,12.0k,Seg,https://www.kaggle.com/vbookshelf/pneumothorax-chest-xray-images-and-masks
+Prostate MR Segmentation Dataset,2020,3D,MR,Prostate,116,Seg,https://liuquande.github.io/SAML/
+Prostate-MR-US-Biopsy,2020,3D,MR/ US,Prostate,1151,Seg,https://doi.org/10.7937/TCIA.2020.A61IOC1A
+QIBA-VolCT-1B,2020,3D,CT,Lung,40,Seg,https://www.cancerimagingarchive.net/analysis-result/qiba-volct-1b/
+QUBIQ2020,2020,2D,"CT, MR","Kidney, Pancreas,",150,Seg,https://qubiq.grand-challenge.org/
+RANZCR CLiP,2020,2D,X-Ray,Breast,30.1k,Cls,https://www.kaggle.com/competitions/ranzcr-clip-catheter-line-classification/data
+RIADD (RFMiD),2020,2D,Fundus Photo,Retina,3.2k,Cls,https://riadd.grand-challenge.org/
+RIDER-LungCT-Seg,2020,3D,CT,Lung,31,Seg,https://www.cancerimagingarchive.net/analysis-result/rider-lungct-seg/
+RIM-ONE,2020,2D,Fundus,Retina,485,Seg,http://medimrg.webs.ull.es/research/retinal-imaging/rim-one/
+RSNA STR Pulmonary Embolism Detection,2020,3D,CT,Lung,12195,Cls,https://www.kaggle.com/competitions/rsna-str-pulmonary-embolism-detection
+Radiomic-Feature-Standards,2020,3D,CT,Chest,13,Seg,https://www.cancerimagingarchive.net/analysis-result/radiomic-feature-standards/
+Retinal Img Quality Assess,2020,2D,Fundus,Retina,216,Cls,https://www.heywhale.com/mw/dataset/5e95d871e7ec38002d034efe
+RibFrac2020,2020,3D,CT,Ribs,660,Seg,https://ribfrac.grand-challenge.org/
+SARAS-ESAD,2020,2D,Endoscopy,Bowel,33.4k,Det,https://saras-esad.grand-challenge.org/
+SCDB,2020,2D,Others,Skin,4,Cls,https://opendatalab.org.cn/SCDB
+SICAPv2,2020,2D,Histopathology (Patch),Prostate,18.8k,Cls,https://opendatalab.org.cn/SICAPv2/download
+SIIM-ACR Pneumothorax Seg,2020,2D,X-Ray,Lung,12.1k,Seg,https://www.kaggle.com/c/siim-acr-pneumothorax-segmentation/data
+Serum Grey Matter Cortical Thickness,2020,3D,MR,Brain,143,Reg,https://openneuro.org/datasets/ds002380
+SpinalDisease2020,2020,2D,MR,Spine,150,Det,https://tianchi.aliyun.com/competition/entrance/531796/information
+SurgVisDom,2020,Video,Endoscopy,Bowel,,Cls,https://surgvisdom.grand-challenge.org/
+Synthetic COVID-19 CXR,2020,2D,X-Ray,Lung,21.3k,Cls,https://opendatalab.org.cn/Synthetic_COVID-19_CXR_Dataset
+TCGA-OV-Proteogenomics,2020,3D,CT,Ovary,20,Seg,https://doi.org/10.7937/TCIA.2019.9stoinf1
+TCGA-UCEC,2020,3D,CT/ MR/ PET/ X-RAY,Uterus,65,Cls,https://www.cancerimagingarchive.net/collection/tcga-ucec/
+TN-SCUI2020,2020,2D,US,Thyroid,3.6k,Seg,https://tn-scui2020.grand-challenge.org/Home/
+Tuberculosis Image,2020,2D,Microscopy,NA,1.3k,Det,https://www.heywhale.com/mw/dataset/5efc4de063975d002c9792de
+VerSe20,2020,3D,CT,Spine,300,Seg,https://verse2020.grand-challenge.org/
+VinBigData Chest X-ray,2020,2D,X-Ray,Lung,15.0k,Det,https://www.kaggle.com/competitions/vinbigdata-chest-xray-abnormalities-detection
+fastMR,2020,2D/ 3D,MR,Brain/ Knee/ Prostate/ Breast,1594,Rec,https://fastmri.med.nyu.edu/
+iChallenge-ADAM,2020,2D,Fundus Photo,Retina,400,Cls,https://amd.grand-challenge.org/
+iChallenge-REFUGE2,2020,2D,Fundus Photo (CFP),Retina,1.6k,Cls,https://refuge.grand-challenge.org/
+m2caiSeg,2020,2D,Endoscopy,Instrument,614,Seg,https://www.kaggle.com/datasets/salmanmaq/m2caiseg
+3D Platelet EM,2021,3D,3D MICROSCOPY,Platelet,2,Seg,https://leapmanlab.github.io/dense-cell/
+5K+ CT Images on Fractured Limbs,2021,2D,CT,Limbs,24,Seg,https://github.com/kc-santosh/medical-imaging-datasets
+ACNS0332,2021,3D,CT/MR,Brain/Spine,85,Seg,https://doi.org/10.7937/TCIA.582B-XZ89
+ACRIN 6698/I-SPY2 Breast DWI,2021,3D,MR,Breast,385,Seg,https://www.cancerimagingarchive.net/collection/acrin-6698/
+ACRIN-Contralateral-Breast-MR,2021,3D,CR/MR,Breast,984,Cls,https://www.cancerimagingarchive.net/collection/acrin-contralateral-breast-mr/
+ADDI ALZHEIMER'S DETECTION CHALLENGE,2021,2D,Series Data,NA,34614,Cls,https://www.aicrowd.com/challenges/addi-alzheimers-detection-challenge
+AHEP0731,2021,3D,CT/ MR/ PET/ US/ XA,Liver/ Chest,190,Seg,https://www.cancerimagingarchive.net/collection/ahep0731/
+AIROGS,2021,2D,Fundus Photo,Retina,101.4k,Cls,https://airogs.grand-challenge.org/
+AOMIC-ID1000,2021,3D,MR,Brain,928,Reg,https://openneuro.org/datasets/ds003097/versions/1.2.1
+APOLLO-5-ESCA,2021,3D,CT,Esophagus,4,Seg,https://doi.org/10.7937/n69a-7a26
+APOLLO-5-LSCC,2021,3D,CT/PET,Lung,36,Seg,https://doi.org/10.7937/TCIA.QQ0G-EB24
+APOLLO-5-LUAD,2021,3D,CT,Lung,5,Seg,https://doi.org/10.7937/BDM9-4623
+APOLLO-5-PAAD,2021,3D,CT,Pancreas,1,Seg,https://doi.org/10.7937/tcia.1yeg-5740
+APOLLO-5-THYM,2021,3D,CT,Thymus,4,Seg,https://doi.org/10.7937/tcia.0pg4-nh82
+APTOS-2019,2021,2D,Fundus Photo,Retina,3.7k,Cls,https://tianchi.aliyun.com/dataset/dataDetail?dataId=120007
+AREN0534,2021,"3D, 2D",Multi,"Kidney, Lung",239,Est,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=91357265
+AbdomenCT-1K,2021,3D,CT,Abdomen,1062,Seg,https://github.com/JunMa11/AbdomenCT-1K
+AdaptOR2021,2021,Video,Endoscopy,Heart,,Det,https://adaptor2021.github.io/
+BCNB Task-1,2021,2D,Histopathology (WSI),Breast,1.1k,Cls,https://bcnb.grand-challenge.org/Home/
+BCNB Task-2,2021,2D,Histopathology (WSI),Breast,1.1k,Cls,https://bcnb.grand-challenge.org/Home/
+BCNB Task-3,2021,2D,Histopathology (WSI),Breast,1.1k,Cls,https://bcnb.grand-challenge.org/Home/
+BCNB Task-4,2021,2D,Histopathology (WSI),Breast,1.1k,Cls,https://bcnb.grand-challenge.org/Home/
+BCNB Task-5,2021,2D,Histopathology (WSI),Breast,1.1k,Cls,https://bcnb.grand-challenge.org/Home/
+BCNB Task-6,2021,2D,Histopathology (WSI),Breast,1.1k,Cls,https://bcnb.grand-challenge.org/Home/
+BRCA-M2C,2021,2D,Histopathology (Patch),Breast,120,Seg,https://opendatalab.org.cn/BRCA-M2C/
+BRIGHT,2021,2D,Histopathology (Patch),Breast,5.1k,Cls,https://research.ibm.com/haifa/Workshops/BRIGHT/
+Bacteria Detection,2021,2D,Microscopy,NA,366,Seg,https://tianchi.aliyun.com/dataset/dataDetail?dataId=94411
+Blood Cell Images,2021,2D,Microscopy,Blood,12.5k,Cls,https://tianchi.aliyun.com/dataset/dataDetail?dataId=89038
+Bone Marrow Cytomorphology,2021,2D,Histopathology (Patch),Bone Marrow,171k,Cls,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=101941770
+BraTS 2021,2021,3D,MR,Brain,2040,Seg,https://www.med.upenn.edu/cbica/brats2021/
+Brain Tumor Progression Prediction,2021,3D,MR,Brain,40,Cls,https://www.cancerimagingarchive.net/collection/brain-tumor-progression/
+BrainPTM 2021,2021,3D,MR,Brain,75,Seg,https://brainptm-2021.grand-challenge.org/
+Breast Cancer Cell Seg,2021,2D,Histopathology (Patch),Breast,58,Seg,https://tianchi.aliyun.com/dataset/dataDetail?dataId=90152
+BreastMNIST,2021,2D,US,Breast,156,Cls,https://medmnist.com/
+CALGB50303,2021,3D,CT/ PET,Chest/ Abdomen/ Pelvis,155,Cls,https://www.cancerimagingarchive.net/collection/calgb50303/
+CDD-CESM,2021,2D,Mammography,NA,2006,Seg,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=109379611
+CMB-MML,2021,"2D, 3D",Multi,NA,60,NA,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=93258436
+CMMD,2021,2D,Mammography,Breast,1775,Seg,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70230508
+COVID-19 CT scans,2021,3D,CT,Lung,20,Seg,https://tianchi.aliyun.com/dataset/dataDetail?dataId=90014
+COVID-19 Chest X-ray DB,2021,2D,X-Ray,NA,3.9k,Cls,https://www.heywhale.com/mw/dataset/6027caee891f960015c863d7
+COVID-19-CT SCAN IMAGES,2021,2D,CT,Lung,1.4k,Cls,https://tianchi.aliyun.com/dataset/dataDetail?dataId=93666
+COVID-19-NY-SBU,2021,2D/ 3D,CT/ MR/ PET/ X-RAY,Brain/ Chest,1384,Cls,https://www.cancerimagingarchive.net/collection/covid-19-ny-sbu/
+COVID19-CT-1000,2021,2D/ 3D,CT,Lung,1000,Cls,https://doi.org/10.7910/DVN/6ACUZJ
+COVID_CT_COVID-CT,2021,2D,CT,Lung,746,Cls,https://tianchi.aliyun.com/dataset/dataDetail?dataId=106604
+CPTAC-BRCA,2021,2D,Histopathology (WSI),Breast,642,NA,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70227748
+CPTAC-COAD,2021,2D,Histopathology (WSI),Colon,373,Cls,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70227852
+CPTAC-OV,2021,2D,Histopathology (WSI),Ovary,222,NA,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70227856
+CT diagnosis of COVID-19,2021,2D,CT,Lung,275,Cls,https://covid-ct.grand-challenge.org/
+CTSpine1K,2021,3D,CT,Spine,1005,Seg,https://github.com/MIRACLE-Center/CTSpine1K
+CVC-ClinicDB,2021,2D,Endoscopy,Bowel,1.4k,Seg,https://tianchi.aliyun.com/dataset/dataDetail?dataId=93690
+CellTracking2021,2021,2D+3D+Video,Microscopy,Cell,0,Seg,http://celltrackingchallenge.net/
+Chaoyang,2021,2D,Histopathology (Patch),Blood,6.2k,Cls,https://drive.google.com/drive/folders/1xsrHjn-WyHGazYtpMqHo9h2w349eYCYO?usp=sharing
+CheXpert,2021,2D,X-Ray,Lung,224.3k,Cls,https://stanfordmlgroup.github.io/competitions/chexpert/
+Chest CT-Scan images Dataset,2021,2D,CT,Lung,1k,Cls,https://tianchi.aliyun.com/dataset/93929
+Chest X-ray PA Dataset,2021,2D,X-Ray,Lung,4.6k,Cls,https://data.mendeley.com/datasets/jctsfj2sfn/1
+Chest XR COVID-19,2021,2D,X-Ray,Lung,21.4k,Cls,https://cxr-covid19.grand-challenge.org/
+ChestX-Det,2021,2D,X-Ray,Lung,3.6k,Seg,https://opendatalab.com/OpenDataLab/ChestX-Det
+CholecTriplet 2021,2021,Video,Endoscopy,Gallbladder,,Cls,https://cholectriplet2021.grand-challenge.org/
+Concrete Permuted Rule Operations,2021,3D,MR,Brain,96,Cls,https://openneuro.org/datasets/ds003701
+Cortical Myelin T1w/T2w,2021,3D,MR,Brain,86,Cls,https://openneuro.org/datasets/ds003653/versions/1.0.0
+Covid-19 Image Dataset,2021,2D,X-Ray,Lung,345,Cls,https://www.kaggle.com/datasets/pranavraikokte/covid19-image-dataset
+CrossMoDA2021,2021,3D,MR,Brain,347,Seg,https://crossmoda.grand-challenge.org/CrossMoDA/
+Derm7pt,2021,2D,Dermoscopy,Skin,2.0k,Cls,https://derm.cs.sfu.ca/Welcome.html
+Dermofit Image Library,2021,2D,Histopathology (Patch),Skin,1.3k,Cls,https://workshop2021.isic-archive.com/
+DiSCo 2021,2021,3D,MR,Brain,3,Reg,http://hardi.epfl.ch/static/events/2021_challenge/
+Duke-Breast-Cancer-MR,2021,3D,MR,Breast,922,Seg,https://www.cancerimagingarchive.net/collection/duke-breast-cancer-mri/
+EndoCV 2021,2021,Video,Endoscopy,Polyp,,Det,https://endocv2021.grand-challenge.org/
+EndoSlam,2021,2D,Endoscopy,"Colon, Liver, Stomach, Kidney",76.8k,Recon,https://github.com/CapsuleEndoscope/EndoSLAM
+EndoVis 2021-PETRAW,2021,Video,Endoscopy,NA,,Cls,https://www.synapse.org/#!Synapse:syn25147789/wiki/608848
+EndoVis 2021-SimSurgSkill,2021,Video,Endoscopy,NA,,Det,https://www.synapse.org/Synapse:syn25127311/wiki/608840
+EndoVis21-HeiSurf,2021,Video,Endoscopy,NA,,Seg,https://www.synapse.org/#!Synapse:syn25101790/wiki/608802
+Eye OCT Datasets,2021,2D,OCT,Retina,148,Cls,https://tianchi.aliyun.com/dataset/dataDetail?dataId=90672
+FLARE21,2021,3D,CT,"Liver, Kidney, Spleen, Pancreas",511,Seg,https://flare.grand-challenge.org/FLARE21/
+FeTA 2021,2021,3D,MR,Brain,50,Seg,https://feta-2021.grand-challenge.org/
+FetReg,2021,Video,Endoscopy,Placenta,,Seg,https://www.synapse.org/#!Synapse:syn25313156/wiki/610166
+Fizpatrick 17k,2021,2D,Dermoscopy,Skin,16.6k,Cls,https://github.com/mattgroh/fitzpatrick17k
+GAMMA,2021,"2D, 3D",Fundus,Retina,200,Cls,https://gamma.grand-challenge.org/
+"GAMMA (Task1, CFP)",2021,2D,Fundus (CFP),Retina,200,Cls,https://gamma.grand-challenge.org/
+"GAMMA (Task3, CFP)",2021,2D,Fundus (CFP),Retina,200,Seg,https://gamma.grand-challenge.org/
+GLIS-RT,2021,2D/3D,CT/MR,Brain,230,Seg,https://www.cancerimagingarchive.net/collection/glis-rt/
+HCC-TACE-Seg,2021,3D,CT,Liver,105,Seg,https://www.cancerimagingarchive.net/collection/hcc-tace-seg/
+HECKTOR 2021,2021,3D,CT/ PET,Head and Neck,325,Seg,https://www.aicrowd.com/challenges/miccai-2021-hecktor
+HMC-QU,2021,Video,Ultrasound,Heart,,Cls,https://aistudio.baidu.com/datasetdetail/102406
+Heart Segmentation in MR Images,2021,3D,MR,Heart,30,Seg,https://tianchi.aliyun.com/dataset/dataDetail?dataId=90148
+ICDC-Glioma,2021,2D/ 3D,MICROSCOPY/ MR,Brain,78,Seg,https://www.cancerimagingarchive.net/collection/icdc-glioma/
+ICDC-Glioma (GLIOMA01)_3D-MR,2021,"2D, 3D","MR, Histo",NA,650,NA,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70227341
+KNIGHT,2021,3D,CT,Kidney,400,Cls,https://research.ibm.com/haifa/Workshops/KNIGHT/
+Kaggle-HPA,2021,2D,Microscopy,NA,89.5k,Seg,https://www.kaggle.com/competitions/hpa-single-cell-image-classification/data
+KiTS21,2021,3D,CT,Kidneys,400,Seg,https://kits21.kits-challenge.org/
+KvasirCapsule-SEG,2021,2D,Colposcopy (Capsule),Polyp,55,Seg,https://www.kaggle.com/datasets/debeshjha1/kvasircapsuleseg
+Lausanne TOF-MRA Aneurysm Cohort,2021,3D,MR,Brain,284,Det,https://openneuro.org/datasets/ds003949
+Learn2Reg Abdomen MR-CT,2021,3D,CT/MRI,Abdomen,122,Reg,https://learn2reg.grand-challenge.org/
+LensID,2021,Video,Endoscopy,Retina,,Seg,https://ftp.itec.aau.at/datasets/ovid/LensID/
+Leukemia Classification,2021,2D,Microscopy,NA,15.1k,Cls,https://tianchi.aliyun.com/dataset/dataDetail?dataId=90101
+M&Ms-2,2021,3D,MR,Heart,360,Seg,https://www.ub.edu/mnms-2/
+MASiVar,2021,3D,MR,Brain,319,Trk,https://openneuro.org/datasets/ds003416/versions/2.0.2
+MATCH,2021,2D/3D,CT/X-RAY,Lung,9,"Loc
+Trk",https://www.aapm.org/GrandChallenge/MATCH/
+MIAS Mammography,2021,2D,X-Ray,Breast,322,Cls,http://peipa.essex.ac.uk/info/mias.html
+MIDOG2021,2021,2D,Histopathology (Patch),Full Body,200,Det,https://imi.thi.de/midog/
+MIDRC-RICORD-1B,2021,3D,CT,Chest,120,Cls,https://www.cancerimagingarchive.net/collection/midrc-ricord-1b/
+MIDRC-RICORD-1c,2021,2D,X-Ray,Lung,1.3k,Cls,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70230281
+MSSEG-2,2021,3D,MR,Brain,100,Seg,https://portal.fli-iam.irisa.fr/msseg-2/data/
+MURA,2021,2D,X-Ray,Multi-bone,40.0k,Cls,https://stanfordmlgroup.github.io/competitions/mura/
+Malaria Cell Image Dataset,2021,2D,Histopathology (Patch),Cell,27.6k,Cls,https://lhncbc.nlm.nih.gov/LHC-downloads/downloads.html#malaria-datasets
+Malignant Lymphoma Cls,2021,2D,Histopathology (Patch),Lymph,374,Cls,https://tianchi.aliyun.com/dataset/dataDetail?dataId=94414
+NADT-Prostate,2021,2D,Histopathology (WSI),Prostate,1.4k,NA,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=91357374
+NHANES II X-ray,2021,2D,X-Ray,Lung,17.1k,NA,https://www.nlm.nih.gov/databases/download/nhanes.html
+NODE21,2021,2D,X-Ray,Lung,5.5k,Det,https://node21.grand-challenge.org/
+Naturalistic Neuroimaging Database,2021,3D,MR,Brain,86,Cls,https://openneuro.org/datasets/ds002837/versions/2.0.0
+NuCLS,2021,2D,Histopathology (Patch),Nuclei,3.1k,Seg,https://nucls.grand-challenge.org/NuCLS/
+PAIP2021,2021,2D,Histopathology (WSI),"Colon, Prostate",150,Det,https://paip2021.grand-challenge.org/
+PDMR-425362-245-T,2021,3D,MR/SR,Abdomen,20,Cls,https://www.cancerimagingarchive.net/collection/pdmr-425362-245-t/
+PanNuke,2021,2D,Histopathology (WSI),Multi-organ,481,Seg,https://warwick.ac.uk/fac/sci/dcs/research/tia/data/pannuke
+PanNuke (Seg),2021,2D,Histopathology (Patch),Full Body,7.9k,Seg,https://huggingface.co/datasets/RationAI/PanNuke
+Pancreatic-CT-CBCT-SEG,2021,3D,CBCT/CT,Pancreas,40,Seg,https://www.cancerimagingarchive.net/collection/pancreatic-ct-cbct-seg/
+Pediatric-CT-SEG,2021,3D,CT,Chest/ Abdomen/ Pelvis,359,Seg,https://www.cancerimagingarchive.net/collection/pediatric-ct-seg/
+Pragmatic Language,2021,3D,MR,Brain,145,Loc,https://openneuro.org/datasets/ds003481
+Prefrontal Cortex Development,2021,3D,MR,Brain,90,Cls,https://openneuro.org/datasets/ds003499/versions/1.0.1
+Pseudo-PHI-DICOM-Data,2021,2D/3D,CT/MR/PET/X-RAY,Various,21,Reg,https://www.cancerimagingarchive.net/collection/pseudo-phi-dicom-data/
+Pulmonary Chest X-Ray (ChinaSet),2021,2D,X-Ray,Lung,800,Cls,https://tianchi.aliyun.com/dataset/dataDetail?dataId=94377
+Pulmonary Chest X-Ray Seg,2021,2D,X-Ray,Lung,800,Seg,https://tianchi.aliyun.com/dataset/dataDetail?dataId=94377
+QIBA-CT-Liver-Phantom,2021,3D,CT,Liver,684,Seg,https://www.cancerimagingarchive.net/collection/qiba-ct-liver-phantom/
+QUBIQ2021 3D CT,2021,3D,CT,Pancreas,118,Seg,https://qubiq21.grand-challenge.org/QUBIQ2021/
+QUBIQ2021_2D_CT,2021,2D,"CT, MR","Kidney, Pancreas,",268,Seg,https://qubiq21.grand-challenge.org/QUBIQ2021/
+QUBIQ2021_2D_MR,2021,2D,"CT, MR","Kidney,",268,Seg,https://qubiq21.grand-challenge.org/QUBIQ2021/
+RUS_CHN,2021,2D,X-Ray,Hand,0,Cls,https://aistudio.baidu.com/datasetdetail/69582/0
+RealNoiseMR 2021,2021,3D,MR,Brain,25,Rec,https://realnoisemri.grand-challenge.org/
+Retina Fundus Image Reg.,2021,2D,Fundus Photo,Retina,129,Reg,https://tianchi.aliyun.com/dataset/dataDetail?dataId=90112
+Retinal OCT - C8,2021,2D,OCT,Retina,24k,Cls,https://www.kaggle.com/obulisainaren/retinal-oct-c8
+SARAS-MESAD,2021,2D,Endoscopy,Prostate,50.3k,Det,https://saras-mesad.grand-challenge.org/Home/
+SARS-COV-2 Ct-Scan Dataset,2021,2D,CT,Lung,2.5k,Cls,https://tianchi.aliyun.com/dataset/dataDetail?dataId=93874
+SD-128 / SD-198 / SD-260,2021,2D,Dermoscopy,Skin,6.6k,Cls,https://workshop2021.isic-archive.com/
+SIIM-FISABIO-RSNA COVID-19,2021,2D,X-Ray,Lung,6.1k,Det,https://www.kaggle.com/competitions/siim-covid19-detection/data
+STOIC2021,2021,3D,CT,Lung,10735,Cls,https://stoic2021.grand-challenge.org/
+SUDMEX CONN,2021,3D,MR,Brain,138,Cls,https://openneuro.org/datasets/ds003346
+Seg Soft Tissue,2021,3D,CT/MR/PET,Soft tissue,51,Seg,https://tianchi.aliyun.com/dataset/dataDetail?dataId=89694
+SegPC 2021,2021,2D,Histopathology (Patch),Blood,498,Seg,https://segpc-2021.grand-challenge.org/SegPC-2021/
+SinaFarsiu-018-Yang_BOE_2021,2021,2D,OCT,Retina,784,Seg,https://people.duke.edu/~sf59/software.html
+Soltanian Optica 2021,2021,3D,OCT,Retina,8,Seg,https://people.duke.edu/~sf59/Soltanian_Optica_2021.htm
+Speech disfluencies: Neurophysiological aspect in normal population,2021,3D,MR,Brain,81,Cls,https://openneuro.org/datasets/ds003469/versions/1.0.0
+T1 Chronotype Sleep Study,2021,3D,MR,Brain,136,Cls,https://openneuro.org/datasets/ds003826/versions/3.0.0
+TN3K,2021,2D,US,Head and Neck,3.5k,Seg,https://github.com/haifangong/TRFE-Net-for-thyroid-nodule-segmentation
+VWS 2021,2021,3D,MR,Carotid Arteries,50,Seg,https://vessel-wall-segmentation.grand-challenge.org/
+Vestibular-Schwannoma-SEG,2021,3D,MR/ RTDOSE/ RTPLAN/ RTSTRUCT,Brain,242,Seg,https://www.cancerimagingarchive.net/collection/vestibular-schwannoma-seg/
+WORD,2021,3D,CT,Abdomen,150,Seg,https://github.com/HiLab-git/WORD
+WSSS4LUAD,2021,2D,Histopathology (Patch),Lung,10.2k,Seg,https://wsss4luad.grand-challenge.org/
+Where is VALDO?,2021,3D,MR,Brain,306,Seg,https://valdo.grand-challenge.org/
+White matter deficits in cocaine use disorder V1.0,2021,3D,MR,Brain,133,Cls,https://openneuro.org/datasets/ds003599/versions/1.0.0
+fastPET-LD,2021,3D,CT/ PET,Whole Body,68,Det,https://fastpet-ld.grand-challenge.org/
+iChallenge-GAMMA_2D-Fundus,2021,2D,Fundus,Retina,300,Seg,https://gamma.grand-challenge.org/
+iChallenge-GAMMA_3D-OCT,2021,2D,Fundus,Retina,300,Seg,https://gamma.grand-challenge.org/
+ACNS0332-Tumor-Annotations,2022,3D,MR,Brain,85,Seg,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=133073385
+AGGC22,2022,2D,Histopathology (Patch),Gland,150,Seg,https://aggc22.grand-challenge.org/
+AHOD0831,2022,"3D, 2D",Multi,NA,0,NA,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=119705284
+AMOS22,2022,3D,CT/MR,Abdomen,600,Seg,https://amos22.grand-challenge.org/
+APOLLO-5,2022,"2D, 3D",Multi,NA,6.2k,NA,https://wiki.cancerimagingarchive.net/display/Public/APOLLO-5
+APTOS Cross-Country Datasets_stage1,2022,2D,OCT,Retina,2.6k,Pred,https://tianchi.aliyun.com/dataset/dataDetail?dataId=127971
+APTOS Cross-Country Datasets_stage2,2022,2D,OCT,Retina,3.3k,Pred,https://tianchi.aliyun.com/dataset/dataDetail?dataId=127971
+APTOS-2021,2022,2D,OCT,Retina,2.6k,Pred,https://tianchi.aliyun.com/dataset/dataDetail?dataId=120006
+ARAR0331,2022,3D,CT/MR/ PET,Head,108,Seg,https://www.cancerimagingarchive.net/collection/arar0331/
+AREN0532,2022,"3D, 2D",Multi,NA,1k,NA,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=109379682
+AREN0533,2022,3D,CR/ CT/ MR/ US,Kidney,294,Cls,https://www.cancerimagingarchive.net/collection/aren0533/
+ASU-Mayo polyp database,2022,Video,Endoscopy,Polyp,,Seg,https://service.tib.eu/ldmservice/dataset/asu-mayo-clinic
+ATM'22,2022,3D,CT,Lung,500,Seg,https://atm22.grand-challenge.org/
+AUTO-RTP,2022,3D,CT,"Prostate, Seminal Vesicles, Pelvic Lymph Nodes",10,Seg,https://auto-rtp.grand-challenge.org/
+AutoLaparo,2022,Video,Endoscopy,Uterus,,Seg,https://autolaparo.github.io/
+AutoPET,2022,3D,CT/PET,Whole-body,1014,Seg,https://autopet.grand-challenge.org/
+BCI,2022,2D,Histopathology (Patch),Breast,4.9k,Gen,https://bci.grand-challenge.org/
+Blood Cell Detection,2022,2D,Microscopy,NA,874,Det,https://www.heywhale.com/mw/dataset/62c2af90913a54a66038165a
+Br35H,2022,2D,MR,Brain,3000,Cls,https://www.heywhale.com/mw/dataset/61d3e5682d30dc001701f728
+BraTS 2022,2022,3D,MR,Brain,1470,Seg,https://www.synapse.org/#!Synapse:syn27046444/wiki/616571
+CATCH,2022,2D,Histopathology (WSI),Skin,350,Seg,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=101941773
+CMB-CRC,2022,"3D, 2D",Multi,Colon,472,Seg,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=93257955
+CMB-GEC,2022,"3D, 2D","CT, WSI, PET",Brain,14,Seg,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=127665431
+CMB-LCA,2022,"2D, 3D",Multi,NA,0,NA,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=93258420
+CMB-MEL,2022,"3D, 2D",Multi,Brain,255,Seg,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=93258432
+CMB-MML,2022,2D/3D,CR/ CT/ DX/ HISTOPATHOLOGY/ MR/ PET/ XA,Blood/Bone,138,Cls,https://www.cancerimagingarchive.net/collection/cmb-mml/
+CMB-PCA,2022,"2D, 3D","CT, MR, WSI",Prostate,31,Cls,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=95224082
+CMRxMotion,2022,3D,MR,Heart,360,Seg,http://cmr.miccai.cloud/
+COSMOS 2022,2022,3D,MR,Carotid Artery,75,Seg,https://vessel-wall-segmentation-2022.grand-challenge.org/
+COV19-CT-DB,2022,3D,CT,Chest,7750,Cls,https://mlearn.lincoln.ac.uk/eccv-2022-ai-mia/
+CT-vs-PET-Ventilation-Imaging,2022,3D,CT/ PET,Lung,20,Cls,https://www.cancerimagingarchive.net/collection/ct-vs-pet-ventilation-imaging/
+CTpred-Sunitinib-panNET,2022,3D,CT,Pancreas,38,Cls,https://www.cancerimagingarchive.net/collection/ctpred-sunitinib-pannet/
+Caltech Conte Center,2022,3D,MR,Brain,117,Cls,https://openneuro.org/datasets/ds003798/versions/1.0.5
+CellTracking2022,2022,2D+3D+Video,Microscopy,Cell,0,Seg,http://celltrackingchallenge.net/
+CholecTriplet2022,2022,Video,Endoscopy,Gallbladder,,Cls,https://cholectriplet2022.grand-challenge.org/
+CoNIC2022,2022,2D,Histopathology (Patch),Colon,5.0k,Seg,https://conic-challenge.grand-challenge.org/
+CrossMoDA2022,2022,3D,MR,Brain,347,Seg,https://crossmoda2022.grand-challenge.org/crossmoda2022/
+CuRIOUS2022,2022,3D,MR/ US,Brain,33,Seg,https://curious2022.grand-challenge.org/
+DLBCL-Morphology,2022,2D,Histopathology (Patch),Lymph Node,246,Seg,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=119702520
+DRAC22,2022,2D,OCT,Retina,174,Seg,https://drac22.grand-challenge.org/
+ERS,2022,Video,Endoscopy,Gastrointestinal,,Seg,https://cvlab.eti.pg.gda.pl/publications/endoscopy-dataset
+Endo-Aid,2022,2D,Histopathology (WSI),GI Tract,91,Cls,https://endo-aid.grand-challenge.org/
+EndoVis 2022 - P2ILF 3D-CT,2022,3D,CT/ENDOSCOPY,Liver,15,Seg,https://p2ilf.grand-challenge.org/Data/
+EndoVis 2022-SimCol-to-3D,2022,Video,Endoscopy,Colon,,Est,https://www.synapse.org/Synapse:syn28548633/wiki/617126
+EndoVis 2022-SurgToolLoc,2022,Video,Endoscopy,NA,,Cls,https://surgtoolloc.grand-challenge.org/
+EndoVis22-P2ILF,2022,Video,Endoscopy,Liver,,Seg,https://p2ilf.grand-challenge.org/
+EndoVis22-SAR-RARP50,2022,Video,Endoscopy,Prostate,,Seg,https://rdr.ucl.ac.uk/projects/SAR-RARP50_Seg_of_surgical_instrumentation_and_Action_Recognition_on_Robot-Assisted_Radical_Prostatectomy_Challenge/191091
+FLARE22,2022,3D,CT,Abdomen,2300,Seg,https://flare22.grand-challenge.org/
+FeTA 2022,2022,3D,MR,Brain,80,Seg,https://feta.grand-challenge.org/feta-2022/
+FetReg,2022,2D,Endoscopy,Uterus,2.7k,Seg,https://www.synapse.org/#!Synapse:syn25313156/wiki/610166
+GammaKnife-Hippocampal,2022,3D,CT/ MR/ RTSTRUCT,Hippocampus,390,Seg,https://www.cancerimagingarchive.net/collection/gammaknife-hippocampal/
+HECKTOR 2022,2022,3D,CT/ PET,Head and Neck,883,Seg,https://www.aicrowd.com/challenges/miccai-2022-hecktor
+HER2 tumor ROIs,2022,2D,Histopathology (WSI),Breast,273,Seg,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=119702524
+Hungarian-Colorectal-Screening,2022,2D,Histopathology (WSI),Colorectal,200,NA,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=91357370
+I-SPY2 Trial,2022,3D,MR,Breast,719,Seg,https://www.cancerimagingarchive.net/collection/ispy2/
+ISBI2023 challenge - SHINY-ICARUS,2022,3D,3D DSA,Internal Carotid Artery,82,Seg,https://www.synapse.org/#!Synapse:syn45774070
+ISLES 2022,2022,3D,MR,Brain,400,Seg,https://isles22.grand-challenge.org/
+ISPY1-Tumor-SEG-Radiomics,2022,3D,MR,Breast,163,Seg,https://doi.org/10.7937/TCIA.XC7A-QT20
+InSTANCE2022,2022,3D,CT,Brain,200,Seg,https://instance.grand-challenge.org/Instance2022/
+KiPA22,2022,3D,CT,Kidney,130,Seg,https://kipa22.grand-challenge.org/
+LAScarQS 2022,2022,3D,MR,Heart,194,Seg,https://zmiclab.github.io/projects/lascarqs22/
+Language Processing Children,2022,3D,MR,Brain,322,Cls,https://openneuro.org/datasets/ds003604/versions/1.0.6
+Learn2Reg NLST,2022,3D,CT,Thorax,420,Reg,https://learn2reg.grand-challenge.org/
+MELA22,2022,3D,CT,Mediastinum,1100,Det,https://mela.grand-challenge.org/
+MIDOG2022,2022,2D,Histopathology (Patch),"Lung, Breast, Skin",405,Det,https://imig.science/midog/
+MOOD 2022-abdominal,2022,3D,CT,Abdomen,550,Seg,http://medicalood.dkfz.de/web/
+MOOD 2022-brain,2022,3D,MR,Brain,800,Cls,http://medicalood.dkfz.de/web/
+MedVidQA,2022,Video,RGB,NA,,VQA,https://opendatalab.org.cn/MedVidQA/download
+Monkeypox Skin Image Dataset,2022,2D,Dermoscopy,Skin,40.2k,Cls,https://www.heywhale.com/mw/dataset/62eb75d6fef0903951b1f199
+MuReD,2022,2D,Fundus Photo,NA,2.2k,Cls,https://data.mendeley.com/datasets/pc4mb3h8hz/1
+Neurocognitive aging data release with behavioral,2022,3D,MR,Brain,301,Cls,https://openneuro.org/datasets/ds003592/versions/1.0.10
+OLIVES,2022,2D/3D,OCT,Eye,78822,Cls,https://github.com/olivesgatech/OLIVES_Dataset
+P2ILF,2022,2D+3D,Endoscopy,NA,15,Reg,https://p2ilf.grand-challenge.org/
+PAIP 2023,2022,2D,Histopathology (Patch),Pancreas,103,Seg,https://2023paip.grand-challenge.org/
+PAIP2023,2022,2D,Histopathology (Patch),Pancreas,103,Seg,https://2023paip.grand-challenge.org/
+PDMR-521955-158-R4,2022,3D,MR/SR,Pancreas/ Lung,20,Cls,https://www.cancerimagingarchive.net/collection/pdmr-521955-158-r4/
+PI-CAI,2022,3D,MR,Prostate,1500,Seg,https://pi-cai.grand-challenge.org/PI-CAI/
+Parse2022,2022,3D,CT,Pulmonary artery,200,Seg,https://parse2022.grand-challenge.org/
+RAVIR,2022,2D,Infrared,Retina,42,Seg,https://ravir.grand-challenge.org/
+RadImageNet (Subset: CT),2022,2D,CT,Full Body,292.4k,Cls,https://www.radimagenet.com/
+RadImageNet (Subset: MR),2022,2D,MR,Full Body,673k,Cls,https://www.radimagenet.com/
+RadImageNet (Subset: US),2022,2D,US,Full Body,390k,Cls,https://www.radimagenet.com/
+SUN-SEG,2022,Video,Endoscopy,Colon,,Seg,https://github.com/GewelsJI/VPS
+SUN_SEG,2022,2D+Video,Endoscopy,Colon,49.1k,Seg,https://github.com/GewelsJI/VPS
+Shifts Challenge 2022,2022,3D,MR,Brain,172,Seg,https://shifts.grand-challenge.org/
+StageII-Colorectal-CT,2022,3D,CT,Abdomen,230,Cls,https://www.cancerimagingarchive.net/collection/stageii-colorectal-ct/
+SurgT: Surgical Track,2022,video,Endoscopy,NA,,Track,https://surgt.grand-challenge.org/Home/
+SynthStrip,2022,2D/3D,CT/MR/PET,Brain,622,Seg,https://w3id.org/synthstrip
+TIGER-wsibulk,2022,2D,Histopathology (WSI),Breast,93,Seg,https://tiger.grand-challenge.org/Home/
+TIGER-wsirois,2022,2D,Histopathology (Patch),Breast,2.0k,Seg,https://tiger.grand-challenge.org/Home/
+TIGER-wsitils,2022,2D,Histopathology (Patch),Breast,82,Reg,https://tiger.grand-challenge.org/Home/
+TotalSegmentator,2022,3D,CT,Full Body,1204,Seg,https://totalsegmentator.com/
+UCSF-PDGM,2022,3D,MR,Brain,501,Seg,https://www.cancerimagingarchive.net/collection/ucsf-pdgm/
+UPENN-GBM,2022,3D,MR,Brain,3680,Seg,https://www.cancerimagingarchive.net/collection/upenn-gbm/
+UW-Madison GI Tract Image Segmentation,2022,3D,MR,"Stomach, Small Bowel, Large Bowel",467,Seg,https://www.kaggle.com/competitions/uw-madison-gi-tract-image-segmentation
+Weakly Supervised Cell Seg,2022,2D,Histopathology (Patch),Full Body,30,Seg,https://neurips22-cellseg.grand-challenge.org/
+braimMRI,2022,2D,MR,Brain,110,Seg,https://tianchi.aliyun.com/dataset/dataDetail?dataId=127459
+cSeg-2022,2022,3D,MR,Cerebellum,33,Seg,https://tarheels.live/cseg2022/
+iChallenge - GOALS,2022,2D,OCT,Retina,300,Seg,https://ichallenges.grand-challenge.org/iChallenge-GON3/
+$$-RegPro2023,2023,3D,MR/ US,Prostate,108,"Reg
+lmk",https://muregpro.github.io/
+A091105,2023,3D,CT/MR,Soft tissue,83,Seg,https://www.cancerimagingarchive.net/collection/a091105/
+ACROBAT,2023,2D,Histopathology (WSI),Breast,750,Reg,https://acrobat.grand-challenge.org/
+ACROBAT2023,2023,2D,Histopathology (WSI),Breast,1.2k,Reg,https://acrobat.grand-challenge.org/overview/
+AHOD0831-Tumor-Annotations,2023,3D,CT/ PET,"Lymph nodes, spleen, salivary glands, Waldeyer'...",165,Seg,https://doi.org/10.7937/4QAD-4280
+AIIB23,2023,3D,CT,Airway,312,Seg,https://codalab.lisn.upsaclay.fr/competitions/13238
+ARCADE,2023,2D,X-Ray,NA,1.5k,Seg,https://arcade.grand-challenge.org/arcade/
+AREN0532-Tumor-Annotations,2023,3D,CT/MR,Kidney,543,Seg,https://www.cancerimagingarchive.net/analysis-result/aren0532-tumor-annotations/
+AREN0533-Tumor-Annotations,2023,3D,CR/ CT/ MR/ US,Kidney,294,Seg,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=140312904
+ATEC23,2023,2D,Histopathology (WSI),Ovary,468,Cls,https://github.com/cwwang1979/MICCAI_ATEC23challenge
+ATLAS2023,2023,3D,MR,Liver,90,Seg,https://atlas-challenge.u-bourgogne.fr/
+Adrenal-ACC-Ki67-Seg,2023,3D,CT,Adrenal,53,Seg,https://www.cancerimagingarchive.net/collection/adrenal-acc-ki67-seg/
+AutoPET II,2023,3D,CT/ PET,Whole-body,1219,Seg,https://autopet-ii.grand-challenge.org/
+BONBID-HIE2023,2023,3D,MR,Brain,133,Seg,https://bonbid-hie2023.grand-challenge.org/bonbid-hie2023/
+BraTS 2023,2023,3D,MR,Brain,5880,Seg,https://www.synapse.org/#!Synapse:syn51156910/wiki/622351
+Brain-TR-GammaKnife,2023,3D,MR,Brain,47,Seg,https://www.cancerimagingarchive.net/collection/brain-tr-gammaknife/
+Burdenko-GBM-Progression,2023,3D,CT/MR,Brain,180,Seg,https://www.cancerimagingarchive.net/collection/burdenko-gbm-progression/
+CALGB50303-Tumor-Annotations,2023,3D,CT/ PET,Lymphatic system,155,Seg,https://www.cancerimagingarchive.net/analysis-result/calgb50303-tumor-annotations/
+CAS2023,2023,3D,MR,Brain,150,Seg,https://codalab.lisn.upsaclay.fr/competitions/9804
+CC-Tumor Heterogeneity,2023,3D,CT/MR/ PET,Cervix,23,Seg,https://www.cancerimagingarchive.net/collection/cc-tumor-heterogeneity/
+CL-Detection2023,2023,2D,X-Ray,NA,555,Det,https://cl-detection2023.grand-challenge.org/
+CMRxRecon,2023,2D/ 3D,MR,Heart,300,Seg,https://doi.org/10.5281/zenodo.7840229
+CODEX imaging of HCC,2023,2D,Histopathology (WSI),Liver,646,NA,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=140313174
+CROWN2023,2023,3D,MR,Brain,600,Cls,https://crown.isi.uu.nl/
+CXR-LT,2023,2D,X-Ray,"Breast, Lung",377.1k,Cls,https://physionet.org/content/cxr-lt-iccv-workshop-cvamd/2.0.0/
+CardiacUDC,2023,Video,Ultrasound,Heart,,Seg,https://www.kaggle.com/datasets/xiaoweixumedicalai/cardiacudc-dataset
+Cataract-1K,2023,Video,Microscopy,"Retina, Iris, Pupil",,Seg,https://github.com/Negin-Ghamsarian/Cataract-1K
+CellTracking2023,2023,2D+3D+Video,Microscopy,Cell,0,Seg,http://celltrackingchallenge.net/
+CheXmask,2023,2D,X-Ray,NA,676.8k,Seg,https://physionet.org/content/chexmask-cxr-segmentation-data/0.1/
+CholecT50,2023,Video,Endoscopy,Gallbladder,,Cls,https://cholectriplet2021.grand-challenge.org/
+Colorectal-Liver-Metastases,2023,3D,CT/SEG,Liver,197,Seg,https://www.cancerimagingarchive.net/collection/colorectal-liver-metastases/
+CrossMoDA2023,2023,3D,MR,Brain,544,Seg,https://crossmoda-challenge.ml/
+DENTEX,2023,2D,X-Ray,Brain,1.0k,Det,https://dentex.grand-challenge.org/data/
+Endo-FM,2023,"2D, Video",Endoscopy,NA,,NA,https://github.com/med-air/Endo-FM
+EndoVis2023-SIMS,2023,2D,Endoscopy,NA,0,Seg,https://www.synapse.org/#!Synapse:syn47193563/wiki/620035
+EndoVis2023-SurgRIPE,2023,2D,Endoscopy,NA,0,Est,https://www.synapse.org/#!Synapse:syn51471789/wiki/622255
+EndoVis2023-Syn-ISS,2023,2D,Endoscopy,NA,0,Seg,https://www.synapse.org/#!Synapse:syn50908388/wiki/620516
+EndoVis23-SurgToolLoc,2023,Video,Endoscopy,"Pituitary, Abdomen",,Seg,https://opencas.dkfz.de/endovis/challenges/2023/
+Endoscapes2023,2023,Video,Endoscopy,Gallbladder,,Seg,https://github.com/CAMMA-public/Endoscapes
+ExACT,2023,3D,MR,Anus,30,Cls,https://www.cancerimagingarchive.net/collection/exact/
+FLARE23,2023,3D,CT,Abdomen,4500,Seg,https://codalab.lisn.upsaclay.fr/competitions/12239
+HaN-Seg,2023,3D,CT/MR,Head and Neck,42,Seg,https://han-seg2023.grand-challenge.org/
+IACTA-EST2023,2023,3D,CT,Brain,402,Cls,https://lgiancauth.github.io/iacta-est-2023/
+INSPECT,2023,3D,CT,Lungs,23248,Cls,https://som-shahlab.github.io/inspect-website/
+ISBI2023 challenge - APIS,2023,3D,CT,Brain,96,Seg,https://bivl2ab.uis.edu.co/challenges/apis
+KiTS23,2023,3D,CT,Kidneys,599,Seg,https://kits-challenge.org/kits23/
+LDCTIQAC2023,2023,2D,CT,NA,1k,Reg,https://ldctiqac2023.grand-challenge.org/ldctiqac2023/
+LLD-MMR2023,2023,3D,MR,Liver,498,Cls,https://github.com/LMMMEng/LLD-MMRI2023
+LNQ2023,2023,3D,CT,Chest,513,Seg,https://lnq2023.grand-challenge.org/
+Learn2Reg ThoraxCBCT,2023,3D,CBCT/FBCT,Thorax,40,Reg,https://learn2reg.grand-challenge.org/
+MMAC2023,2023,2D,Fundus,NA,0,Cls,https://codalab.lisn.upsaclay.fr/competitions/12441
+MVSeg-3DTEE2023,2023,3D,US,Mitral valve,175,Seg,https://www.synapse.org/#!Synapse:syn51186045/wiki/621356
+MedFM2023,2023,2D,X-Ray,NA,4.8k,Cls,https://medfm2023.grand-challenge.org/
+Meningioma-SEG-CLASS,2023,3D,MR,Brain,96,Seg,https://www.cancerimagingarchive.net/collection/meningioma-seg-class/
+NurVid,2023,Video,RGB,NA,,Cls,https://github.com/minghu0830/NurViD-benchmark
+OCEAN,2023,2D,Histopathology (WSI),Ovary,1.6k,Cls,https://zenodo.org/record/7844718
+OCELOT2023,2023,2D,Histopathology (WSI),Colon,667,Det,https://ocelot2023.grand-challenge.org/
+Oral_Diseases,2023,2D,Digital Photography,NA,12944,Cls,https://www.kaggle.com/datasets/salmansajid05/oral-diseases
+Ovarian Bevacizumab Response,2023,2D,Histopathology (WSI),Ovary,285,NA,https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=83593077
+PCa Bx 3Dpathology,2023,3D,3D MICROSCOPY,Prostate,50,Seg,https://www.cancerimagingarchive.net/collection/pca_bx_3dpathology/
+PSFHS,2023,2D,US,NA,4.7k,Seg,https://ps-fh-aop-2023.grand-challenge.org/
+PolypGen,2023,Video,Endoscopy,Polyp,,Seg,https://www.synapse.org/#!Synapse:syn26376615/wiki/613312
+Prostate-Anatomical-Edge-Cases,2023,3D,CT,"Prostate, Rectum, Bladder, Femoral Heads",131,Seg,https://www.cancerimagingarchive.net/collection/prostate-anatomical-edge-cases/
+QuantConn,2023,3D,MR,Brain,206,Rec,https://doi.org/10.5281/zenodo.7848195
+Quilt-1M,2023,2D,Histopathology (Patch),Multi-organ,1M,VQA,https://github.com/wisdomikezogwo/quilt1m
+RFMiD 2.0,2023,2D,Fundus Photo,NA,860,Cls,https://zenodo.org/record/7505822
+RHUH-GBM,2023,3D,MR,Brain,40,Seg,https://www.cancerimagingarchive.net/collection/rhuh-gbm/
+RIDER Pilot,2023,2D/3D,CR/CT/DX,Lung,8,Cls,https://www.cancerimagingarchive.net/collection/rider-pilot/
+ROD,2023,2D,Fundus Photo,Retina,281,Cls,https://www.kaggle.com/datasets/gracemariabinu/retinal-occlusion-dataset/data
+SEG.A. 2023,2023,3D,CT,Aorta,56,Seg,https://multicenteraorta.grand-challenge.org/
+SLCN,2023,3D,MR,Brain,514,Cls,https://slcn.grand-challenge.org/
+SMILE-UHURA2023,2023,3D,MR,Brain,25,Seg,https://www.synapse.org/#!Synapse:syn47164761/wiki/620033
+SPPIN2023,2023,3D,MR,Abdomen,96,Seg,https://sppin.grand-challenge.org/
+STAGE,2023,3D,OCT,Retina,400,Cls,https://doi.org/10.5281/zenodo.7835341
+STIR,2023,Video,Endoscopy,NA,,Track,https://www.selectdataset.com/dataset/26e0a0e638714c2537a15140182e6f1c
+SegRap2023,2023,3D,CT,"Head, Neck",400,Seg,https://segrap2023.grand-challenge.org/
+Semi-TeethSeg,2023,2D/3D,CT/X-RAY,Teeth,38000,Seg,https://zenodo.org/record/7840021
+SynthRAD2023,2023,3D,CT/MR,"Brain, Pelvis",1080,Syn,https://synthrad2023.grand-challenge.org/
+T3 Challenge,2023,Video,RGB,NA,,Cls,https://thompson-challenge.grand-challenge.org/
+TDSC-ABUS2023,2023,3D,US,Breast,200,Seg,https://tdsc-abus2023.grand-challenge.org/
+The Dresden Surgical Anatomy Dataset,2023,Video,Endoscopy,"Abdominal organs, vessel structures",,Seg,https://zenodo.org/records/6958337
+ToothFairy2023,2023,3D,CBCT,Inferior Alveolar Nerve,443,Seg,https://toothfairy.grand-challenge.org/toothfairy/
+ToxoFundus,2023,2D,Fundus Photo,Retina,411,Cls,https://www.kaggle.com/datasets/andrewmvd/ocular-toxoplasmosis-fundus-images-dataset
+ULS23,2023,3D,CT,"Chest, Abdomen, Pelvis",39468,Seg,https://uls23.grand-challenge.org/uls23/
+USenhance2023,2023,2D,US,NA,1.5k,Recon,https://ultrasoundenhance2023.grand-challenge.org/
+WBMR-NF,2023,3D,MR,Whole-body,400,Seg,https://mgh-3dqi.github.io/
+XPRESS2023,2023,3D,3D X-RAY,Brain,3,Seg,https://xpress.grand-challenge.org/
+AMOS-MM,2024,3D,CT,Abdomen,2300,"syn
+Rec",https://doi.org/10.5281/zenodo.10992155
+AVOS,2024,Video,Endoscopy,NA,,Det,https://research.bidmc.org/surgical-informatics/avos
+AbdomenAtlas,2024,3D,CT,Abdomen,20460,Seg,https://www.zongweiz.com/dataset
+BIMCV-R,2024,2D/3D,CT,Thoracic,8069,Rec,https://huggingface.co/datasets/cyd0806/BIMCV-R
+CT-RATE,2024,3D,CT,Chest,50188,Cls,https://huggingface.co/datasets/ibrahimhamamci/CT-RATE
+CellTracking2024,2024,2D+3D+Video,Microscopy,Cell,0,Seg,http://celltrackingchallenge.net/
+CholecInstanceSeg,2024,Video,Endoscopy,Gallbladder,,Seg,https://github.com/cai4cai/cholec_instance_seg
+Egosurgery,2024,Video,Endoscopy,NA,,Cls,https://github.com/Fujiry0/EgoSurgery
+EndoVis23-PitVis,2024,Video,Endoscopy,"Brain, Pituitary gland",,Seg,https://huggingface.co/datasets/UCL-WEISS/PitVis-2023
+FedSurg,2024,2D+Video,Endoscopy,NA,30,Cls,https://www.synapse.org/Synapse:syn53137385/wiki/625370
+HiSWA-RLLS,2024,Video,Endoscopy,Liver,,Cls,https://www.synapse.org/Synapse:syn54626087/wiki/626813
+ISLES 2024,2024,3D,CT/MR,Brain,250,Seg,https://www.isles-challenge.org/
+IXI Dataset,2024,3D,MR,Brain,600,"Reg
+Rec",http://brain-development.org/ixi-dataset/
+LAScarQS++ 2024,2024,3D,MR,Heart,200,Seg,https://www.zmic.org.cn/care_2024/track2/
+Learn2Reg LUMIR,2024,3D,MR/US,Brain,269,Reg,https://learn2reg.grand-challenge.org/
+M3D,2024,3D,CT/MR,Whole-body,120000,Seg,https://github.com/BAAI-DCAI/M3D
+MOOD,2024,3D,CT/MR,Brain/Abdomen,1358,Det,https://www.synapse.org/Synapse:syn21343101/wiki/599515
+MyoPS++ 2024,2024,3D,MR,Heart,200,Seg,https://www.zmic.org.cn/care_2024/track4/
+OpenMind,2024,3D,MR,Head and Neck,114570,Seg,https://huggingface.co/datasets/AnonRes/OpenMind
+OphNet,2024,Video,Microscopy,Retina,,Cls,https://minghu0830.github.io/OphNet-benchmark/
+PENGWIN2024-Task1,2024,3D,CT,Pelvis,150,Seg,https://pengwin.grand-challenge.org/
+PhaKIR,2024,Video,Endoscopy,Gallbladder,,Seg,https://phakir.re-mic.de/
+RADCURE,2024,3D,CT,Head and Neck,3346,Seg,https://www.cancerimagingarchive.net/collection/radcure/
+RAOS,2024,3D,CT/MR,Abdomen,4130,Seg,https://github.com/Luoxd1996/RAOS
+SAGES-CVS,2024,Video,Endoscopy,"Gallbladder, Cystic Duct, Cystic Artery, Hepatocystic Triangle, Liver",,Seg,https://www.cvschallenge.org/the-challenge-2
+SegCol,2024,"2D, Video",Endoscopy,NA,,Seg,https://www.synapse.org/#!Synapse:syn54124209
+SegSTRONG-C,2024,"2D, Video",Endoscopy,NA,,Seg,https://github.com/hding2455/CaRTS
+SurgVU,2024,Video,Endoscopy,Abdomen,,Seg,https://surgvu24.grand-challenge.org/
+TotalSegmentator MRI,2024,3D,MR,Whole-body,616,Seg,https://zenodo.org/doi/10.5281/zenodo.11367004
+TriALS2024-Task1,2024,3D,CT,Liver,201,Seg,https://github.com/xmed-lab/TriALS
+TriALS2024-Task2,2024,3D,CT,Liver,240,Seg,https://doi.org/10.5281/zenodo.10992127
+WHS++ 2024,2024,3D,CT/MR,Heart,200,Seg,https://www.zmic.org.cn/care_2024/track5/
+GynSurg,2025,Video,Endoscopy,Uterus,,Seg,https://ftp.itec.aau.at/datasets/GynSurge/
+ICG-CXR,2025,2D,X-Ray,Lung,11.4k,Gen,https://progemu.github.io/
+OSS,2025,Video,Endoscopy,NA,,Cls,https://www.synapse.org/Synapse:syn54123724/wiki/626561
+Ophora-160K,2025,Video,Microscopy,Retina,,Captioning,https://github.com/uni-medical/Ophora
+PENGWIN2024-Task2,2025,2D,X-Ray,Pelvic Bone,150,Seg,https://pengwin.grand-challenge.org/
+Subsolid Nodules,2025,3D,CT,Lung,59,Seg,https://subsolidnodules.grand-challenge.org/
+Arteriovenous Nicking,NA,2D,Fundus,Retina,90,Cls,https://people.eng.unimelb.edu.au/thivun/projects/AV_nicking_quantification/
+BEH,NA,2D,Fundus Photo,NA,0,NA,https://github.com/mirtanvirislam/Deep-Learning-Based-Glaucoma-Detection-with-Cropped-Optic-Cup-and-Disc-and-Blood-Vessel-Segmentation
+BiDR,NA,2D,Fundus Photo,NA,0,NA,https://www.kaggle.com/datasets/pkdarabi/diagnosis-of-diabetic-retinopathy
+CVC-EndoSceneStill,NA,2D,Endoscopy,NA,3.4k,Seg,https://www.biobancovasco.org/en/Sample-and-data-catalog/Databases/PD178-PICCOLO-EN.html
+Chaksu,NA,2D,Fundus,Retina,1345,Seg,https://doi.org/10.6084/m9.figshare.20123135
+CoronARe,NA,2D,X-Ray,NA,0,Recon,https://coronare.grand-challenge.org/
+DHRF,NA,2D,Fundus Photo,Retina,6.2k,Cls,https://www.kaggle.com/datasets/nikkich9/derbi-hackathon-retinal-fundus-image-dataset
+E-ophta,NA,2D,Fundus Photo,Retina,926,Seg,
+Endo-FM,NA,2D+Video,Endoscopy,NA,0,Seg,https://github.com/med-air/Endo-FM
+FIVES,NA,2D,Fundus Photo,Retina,800,Seg,https://figshare.com/articles/dataset/FIVES_A_Fundus_Image_Dataset_for_AI-based_Vessel_Segmentation/21727913
+FUND,NA,2D,Fundus Photo,NA,0,NA,
+HAM10000,NA,2D,Dermoscopy,Skin,10015,Cls,https://www.isic-archive.com/
+HRF,NA,2D,Fundus,Retina,45,Seg,https://www5.cs.fau.de/fileadmin/research/datasets/fundus-images/healthy.zip
+HarvardGlaucoma,NA,2D,Fundus Photo,NA,0,NA,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/2EVN4B
+ISBI2023 CEPHA29,NA,2D,X-Ray,NA,1.0k,Loc,http://vision.seecs.edu.pk/CEPHA29/
+ImageCLEF 2015,NA,"2D, 3D",Multi,"Skin, Cell, Breast",0,Cls,https://www.imageclef.org/2015
+ImageCLEF 2016,NA,2D,Multi,"Skin, Cell, Breast",31k,Cls,https://www.imageclef.org/2016/medical
+LAG,NA,2D,Fundus Photo,NA,0,NA,https://github.com/smilell/AG-CNN
+OcularD,NA,2D,Fundus Photo,Retina,6.4k,Cls,https://www.nature.com/articles/s41598-024-84922-y
+PAPILA,NA,2D,Fundus Photo,Retina,488,Seg,https://doi.org/10.6084/m9.figshare.14798004.v1
+PARAGUAY,NA,2D,Fundus Photo,NA,0,Cls,https://zenodo.org/record/3872227
+PBC_dataset_normal_DIB,NA,2D,Microscopy,Blood,0,Cls,https://data.mendeley.com/datasets/snkd93bnjr/1
+RFMiD,NA,2D,Fundus,Retina,3200,Cls,https://riadd.grand-challenge.org/download-all-classes/
+ROSE,NA,2D,OCTA (CT),Eye,229,Seg,https://imed.nimte.ac.cn/dataofrose.html
+SegCol,NA,2D+Video,"Colposcopy, Endoscopy",NA,78,Seg,https://www.synapse.org/#!Synapse:syn54124209
+SegSTRONG-C,NA,2D+Video,Endoscopy,NA,17,Seg,https://github.com/hding2455/CaRTS
+VinDr-CXR,NA,2D,X-ray,Chest,18000,NA,https://physionet.org/content/vindr-cxr/1.0.0/
+VinDr-Mammo,NA,2D,Mammography,Breast,19992,Det,https://www.physionet.org/content/vindr-mammo/1.0.0/
+VinDr-PCXR,NA,2D,X-ray,Chest,9125,NA,https://physionet.org/content/vindr-pcxr/1.0.0/
+VinDr-SpineXR,NA,2D,X-ray,Spine,10469,NA,https://vindr.ai/datasets/spinexr==

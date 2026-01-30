@@ -1,0 +1,84 @@
+{
+  "directions": [
+    {
+      "id": "cv",
+      "name": "Computer Vision",
+      "nameZh": "计算机视觉",
+      "description": "Image classification, object detection, segmentation",
+      "descriptionZh": "图像分类、目标检测、分割",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "large-models",
+      "name": "Large Models",
+      "nameZh": "大模型",
+      "description": "Foundation models, pre-training, scaling",
+      "descriptionZh": "基础模型、预训练、规模化",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "ml",
+      "name": "Machine Learning",
+      "nameZh": "机器学习",
+      "description": "Deep learning, optimization, theory",
+      "descriptionZh": "深度学习、优化、理论",
+      "color": "#10b981"
+    },
+    {
+      "id": "plug-play",
+      "name": "Plug & Play",
+      "nameZh": "即插即用",
+      "description": "Modular components, adapters, transfer learning",
+      "descriptionZh": "模块化组件、适配器、迁移学习",
+      "color": "#f59e0b"
+    },
+    {
+      "id": "survey",
+      "name": "Survey Papers",
+      "nameZh": "综述论文",
+      "description": "Literature review, taxonomy, analysis",
+      "descriptionZh": "文献综述、分类法、分析",
+      "color": "#ef4444"
+    },
+    {
+      "id": "multimodal",
+      "name": "Multi-modality",
+      "nameZh": "多模态",
+      "description": "Vision-language, audio-visual, cross-modal",
+      "descriptionZh": "视觉-语言、音频-视觉、跨模态",
+      "color": "#ec4899"
+    },
+    {
+      "id": "interdisciplinary",
+      "name": "Interdisciplinary",
+      "nameZh": "跨学科",
+      "description": "Medical imaging, robotics, scientific computing",
+      "descriptionZh": "医学影像、机器人、科学计算",
+      "color": "#06b6d4"
+    },
+    {
+      "id": "benchmark",
+      "name": "Benchmark",
+      "nameZh": "Benchmark",
+      "description": "Evaluation benchmarks, leaderboards, performance metrics",
+      "descriptionZh": "评估基准、排行榜、性能指标",
+      "color": "#6366f1"
+    },
+    {
+      "id": "datasets",
+      "name": "Datasets",
+      "nameZh": "Datasets",
+      "description": "Dataset construction, annotation, data curation",
+      "descriptionZh": "数据集构建、标注、数据整理",
+      "color": "#14b8a6"
+    },
+    {
+      "id": "architecture",
+      "name": "Architecture",
+      "nameZh": "架构",
+      "description": "Network architectures, model design, backbone structures",
+      "descriptionZh": "网络架构、模型设计、主干结构",
+      "color": "#f97316"
+    }
+  ]
+}

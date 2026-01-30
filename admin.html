@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ResearchBank - Data Manager</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .tab-active { @apply bg-blue-500 text-white; }
+    .tab-inactive { @apply bg-slate-200 text-slate-600 hover:bg-slate-300; }
+    .json-preview { font-family: 'Consolas', 'Monaco', monospace; }
+  </style>
+</head>
+<body class="bg-slate-50 min-h-screen">
+  <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
+            <i class="fas fa-graduation-cap text-white"></i>
+          </div>
+          <div>
+            <h1 class="text-lg font-bold text-slate-900">Data Manager</h1>
+            <p class="text-xs text-slate-500">Papers/Directions: JSON | Datasets: CSV</p>
+          </div>
+        </div>
+        <div class="flex gap-2">
+          <button onclick="exportData()" class="px-4 py-2 bg-emerald-500 text-white rounded-lg hover:bg-emerald-600 transition-colors">
+            <i class="fas fa-download mr-2"></i>Export
+          </button>
+          <button onclick="importData()" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors">
+            <i class="fas fa-upload mr-2"></i>Import
+          </button>
+          <input type="file" id="importFile" class="hidden" accept=".json,.csv" onchange="handleImport(event)">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 py-6">
+    <!-- Tabs -->
+    <div class="flex gap-2 mb-6">
+      <button onclick="switchTab('directions')" id="tab-directions" class="tab-active px-4 py-2 rounded-lg font-medium transition-colors">
+        <i class="fas fa-folder-tree mr-2"></i>Directions
+      </button>
+      <button onclick="switchTab('papers')" id="tab-papers" class="tab-inactive px-4 py-2 rounded-lg font-medium transition-colors">
+        <i class="fas fa-book mr-2"></i>Papers
+      </button>
+      <button onclick="switchTab('datasets')" id="tab-datasets" class="tab-inactive px-4 py-2 rounded-lg font-medium transition-colors">
+        <i class="fas fa-database mr-2"></i>Datasets (CSV)
+      </button>
+    </div>
+
+    <!-- Directions Tab -->
+    <div id="content-directions" class="space-y-4">
+      <div class="flex justify-between items-center">
+        <h2 class="text-xl font-bold text-slate-900">Research Directions</h2>
+        <button onclick="addDirection()" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors">
+          <i class="fas fa-plus mr-2"></i>Add Direction
+        </button>
+      </div>
+      <div id="directions-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+    </div>
+
+    <!-- Papers Tab -->
+    <div id="content-papers" class="space-y-4 hidden">
+      <div class="flex justify-between items-center">
+        <h2 class="text-xl font-bold text-slate-900">Papers</h2>
+        <div class="flex gap-2">
+          <select id="paper-direction-filter" onchange="filterPapers()" class="px-3 py-2 border border-slate-300 rounded-lg">
+            <option value="">All Directions</option>
+          </select>
+          <button onclick="addPaper()" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors">
+            <i class="fas fa-plus mr-2"></i>Add Paper
+          </button>
+        </div>
+      </div>
+      <div id="papers-list" class="space-y-4"></div>
+    </div>
+
+    <!-- Datasets Tab -->
+    <div id="content-datasets" class="space-y-4 hidden">
+      <div class="flex justify-between items-center">
+        <h2 class="text-xl font-bold text-slate-900">Datasets (CSV Format)</h2>
+        <div class="flex gap-2">
+          <button onclick="loadCsvFiles()" class="px-4 py-2 bg-slate-500 text-white rounded-lg hover:bg-slate-600 transition-colors">
+            <i class="fas fa-sync mr-2"></i>Reload CSV
+          </button>
+          <button onclick="addDataset()" class="px-4 py-2 bg-emerald-500 text-white rounded-lg hover:bg-emerald-600 transition-colors">
+            <i class="fas fa-plus mr-2"></i>Add Dataset
+          </button>
+        </div>
+      </div>
+      
+      <!-- CSV File Selector -->
+      <div class="bg-white rounded-xl p-4 border border-slate-200">
+        <label class="block text-sm font-medium text-slate-700 mb-2">Select CSV File</label>
+        <select id="csv-file-select" onchange="switchCsvFile()" class="w-full px-3 py-2 border border-slate-300 rounded-lg">
+          <option value="medical">medical_datasets.csv</option>
+          <option value="general">general_datasets.csv</option>
+        </select>
+      </div>
+      
+      <div id="datasets-list" class="space-y-2"></div>
+    </div>
+
+    <!-- Export Preview -->
+    <div class="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div>
+        <h3 class="text-lg font-bold text-slate-900 mb-2">Papers JSON Preview</h3>
+        <div class="bg-slate-900 rounded-xl p-4 overflow-auto max-h-96">
+          <pre id="papers-json-preview" class="json-preview text-green-400 text-sm"></pre>
+        </div>
+      </div>
+      <div>
+        <h3 class="text-lg font-bold text-slate-900 mb-2">Datasets CSV Preview</h3>
+        <div class="bg-slate-900 rounded-xl p-4 overflow-auto max-h-96">
+          <pre id="datasets-csv-preview" class="json-preview text-blue-400 text-sm"></pre>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Direction Modal -->
+  <div id="direction-modal" class="fixed inset-0 bg-black/50 hidden items-center justify-center z-50">
+    <div class="bg-white rounded-2xl p-6 w-full max-w-lg max-h-[90vh] overflow-y-auto">
+      <h3 class="text-xl font-bold mb-4" id="direction-modal-title">Add Direction</h3>
+      <div class="space-y-4">
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">ID (unique identifier)</label>
+          <input type="text" id="direction-id" class="w-full px-3 py-2 border border-slate-300 rounded-lg" placeholder="e.g., cv, nlp">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Name</label>
+          <input type="text" id="direction-name" class="w-full px-3 py-2 border border-slate-300 rounded-lg" placeholder="e.g., Computer Vision">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Icon</label>
+          <select id="direction-icon" class="w-full px-3 py-2 border border-slate-300 rounded-lg">
+            <option value="Eye">Eye (Vision)</option>
+            <option value="Brain">Brain (AI/ML)</option>
+            <option value="BarChart3">BarChart3 (Analytics)</option>
+            <option value="Puzzle">Puzzle (Modules)</option>
+            <option value="FileText">FileText (Documents)</option>
+            <option value="Layers">Layers (Multi-modal)</option>
+            <option value="GitBranch">GitBranch (Interdisciplinary)</option>
+            <option value="MessageSquare">MessageSquare (NLP)</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Description</label>
+          <input type="text" id="direction-description" class="w-full px-3 py-2 border border-slate-300 rounded-lg" placeholder="Brief description">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Color</label>
+          <select id="direction-color" class="w-full px-3 py-2 border border-slate-300 rounded-lg">
+            <option value="blue">Blue</option>
+            <option value="purple">Purple</option>
+            <option value="emerald">Emerald</option>
+            <option value="amber">Amber</option>
+            <option value="rose">Rose</option>
+            <option value="cyan">Cyan</option>
+            <option value="orange">Orange</option>
+          </select>
+        </div>
+      </div>
+      <div class="flex justify-end gap-2 mt-6">
+        <button onclick="closeModal('direction-modal')" class="px-4 py-2 text-slate-600 hover:bg-slate-100 rounded-lg">Cancel</button>
+        <button onclick="saveDirection()" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Paper Modal -->
+  <div id="paper-modal" class="fixed inset-0 bg-black/50 hidden items-center justify-center z-50">
+    <div class="bg-white rounded-2xl p-6 w-full max-w-2xl max-h-[90vh] overflow-y-auto">
+      <h3 class="text-xl font-bold mb-4" id="paper-modal-title">Add Paper</h3>
+      <div class="space-y-4">
+        <input type="hidden" id="paper-id">
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Direction</label>
+          <select id="paper-direction" class="w-full px-3 py-2 border border-slate-300 rounded-lg"></select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Paper Title *</label>
+          <input type="text" id="paper-title" class="w-full px-3 py-2 border border-slate-300 rounded-lg" placeholder="e.g., ResNet: Deep Residual Learning">
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <label class="block text-sm font-medium text-slate-700 mb-1">Authors</label>
+            <input type="text" id="paper-authors" class="w-full px-3 py-2 border border-slate-300 rounded-lg" placeholder="e.g., He, Zhang, Ren, Sun">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-slate-700 mb-1">Year</label>
+            <input type="number" id="paper-year" class="w-full px-3 py-2 border border-slate-300 rounded-lg" placeholder="2024">
+          </div>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Venue</label>
+          <input type="text" id="paper-venue" class="w-full px-3 py-2 border border-slate-300 rounded-lg" placeholder="e.g., CVPR, NeurIPS">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Abstract</label>
+          <textarea id="paper-abstract" rows="3" class="w-full px-3 py-2 border border-slate-300 rounded-lg" placeholder="Paper abstract"></textarea>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-emerald-700 mb-1">One Sentence Summary</label>
+          <textarea id="paper-summary" rows="2" class="w-full px-3 py-2 border border-emerald-300 rounded-lg bg-emerald-50" placeholder="One sentence summary of the paper"></textarea>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-amber-700 mb-1">Gaps</label>
+          <textarea id="paper-gaps" rows="2" class="w-full px-3 py-2 border border-amber-300 rounded-lg bg-amber-50" placeholder="What gaps does this paper address?"></textarea>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-purple-700 mb-1">Objectives</label>
+          <textarea id="paper-objectives" rows="2" class="w-full px-3 py-2 border border-purple-300 rounded-lg bg-purple-50" placeholder="What are the objectives of this paper?"></textarea>
+        </div>
+        <div class="grid grid-cols-3 gap-2">
+          <input type="text" id="paper-code" class="px-3 py-2 border border-slate-300 rounded-lg" placeholder="Code URL">
+          <input type="text" id="paper-project" class="px-3 py-2 border border-slate-300 rounded-lg" placeholder="Project URL">
+          <input type="text" id="paper-pdf" class="px-3 py-2 border border-slate-300 rounded-lg" placeholder="PDF URL">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Tags (comma-separated)</label>
+          <input type="text" id="paper-tags" class="w-full px-3 py-2 border border-slate-300 rounded-lg" placeholder="e.g., CNN, ResNet, Deep Learning">
+        </div>
+      </div>
+      <div class="flex justify-end gap-2 mt-6">
+        <button onclick="closeModal('paper-modal')" class="px-4 py-2 text-slate-600 hover:bg-slate-100 rounded-lg">Cancel</button>
+        <button onclick="savePaper()" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Save Paper</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dataset Modal -->
+  <div id="dataset-modal" class="fixed inset-0 bg-black/50 hidden items-center justify-center z-50">
+    <div class="bg-white rounded-2xl p-6 w-full max-w-lg max-h-[90vh] overflow-y-auto">
+      <h3 class="text-xl font-bold mb-4" id="dataset-modal-title">Add Dataset</h3>
+      <div class="space-y-4">
+        <input type="hidden" id="dataset-id">
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Dataset Name *</label>
+          <input type="text" id="dataset-name" class="w-full px-3 py-2 border border-slate-300 rounded-lg" placeholder="e.g., BraTS 2024">
+        </div>
+        <div class="grid grid-cols-2 gap-4">
+          <div>
+            <label class="block text-sm font-medium text-slate-700 mb-1">Year</label>
+            <input type="number" id="dataset-year" class="w-full px-3 py-2 border border-slate-300 rounded-lg" placeholder="2024">
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-slate-700 mb-1">Dimension</label>
+            <select id="dataset-dimension" class="w-full px-3 py-2 border border-slate-300 rounded-lg">
+              <option value="2D">2D</option>
+              <option value="3D">3D</option>
+              <option value="2D/3D">2D/3D</option>
+              <option value="4D">4D</option>
+              <option value="Video">Video</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Modality</label>
+          <input type="text" id="dataset-modality" class="w-full px-3 py-2 border border-slate-300 rounded-lg" placeholder="e.g., MR, CT, X-Ray">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Organ/Structure</label>
+          <input type="text" id="dataset-organ" class="w-full px-3 py-2 border border-slate-300 rounded-lg" placeholder="e.g., Brain, Lung, Heart">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Image Count</label>
+          <input type="text" id="dataset-count" class="w-full px-3 py-2 border border-slate-300 rounded-lg" placeholder="e.g., 1000, 50k">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Task Type</label>
+          <input type="text" id="dataset-task" class="w-full px-3 py-2 border border-slate-300 rounded-lg" placeholder="e.g., Seg, Cls, Det">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-slate-700 mb-1">Dataset URL</label>
+          <input type="text" id="dataset-link" class="w-full px-3 py-2 border border-slate-300 rounded-lg" placeholder="https://...">
+        </div>
+      </div>
+      <div class="flex justify-end gap-2 mt-6">
+        <button onclick="closeModal('dataset-modal')" class="px-4 py-2 text-slate-600 hover:bg-slate-100 rounded-lg">Cancel</button>
+        <button onclick="saveDataset()" class="px-4 py-2 bg-emerald-500 text-white rounded-lg hover:bg-emerald-600">Save Dataset</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Data storage
+    let papersData = { papers: [] };
+    let directionsData = { directions: [] };
+    let medicalDatasets = [];
+    let generalDatasets = [];
+    let currentCsvFile = 'medical';
+
+    // Initialize
+    async function initData() {
+      // Load papers from JSON
+      try {
+        const papersRes = await fetch('./src/data/papers.json');
+        if (papersRes.ok) {
+          papersData = await papersRes.json();
+        }
+      } catch (e) {
+        console.log('No papers.json found, using default');
+      }
+
+      // Load directions from JSON
+      try {
+        const directionsRes = await fetch('./src/data/directions.json');
+        if (directionsRes.ok) {
+          directionsData = await directionsRes.json();
+        }
+      } catch (e) {
+        console.log('No directions.json found, using default');
+        // Default directions
+        directionsData.directions = [
+          { id: 'cv', name: 'Computer Vision', nameZh: '计算机视觉', description: 'Image classification, object detection, segmentation', descriptionZh: '图像分类、目标检测、分割', color: '#3b82f6' },
+          { id: 'large-models', name: 'Large Models', nameZh: '大模型', description: 'Foundation models, pre-training, scaling', descriptionZh: '基础模型、预训练、规模化', color: '#8b5cf6' },
+          { id: 'ml', name: 'Machine Learning', nameZh: '机器学习', description: 'Deep learning, optimization, theory', descriptionZh: '深度学习、优化、理论', color: '#10b981' },
+          { id: 'plug-play', name: 'Plug & Play', nameZh: '即插即用', description: 'Modular components, adapters, transfer learning', descriptionZh: '模块化组件、适配器、迁移学习', color: '#f59e0b' },
+          { id: 'survey', name: 'Survey Papers', nameZh: '综述论文', description: 'Literature review, taxonomy, analysis', descriptionZh: '文献综述、分类法、分析', color: '#ef4444' },
+          { id: 'multimodal', name: 'Multi-modality', nameZh: '多模态', description: 'Vision-language, audio-visual, cross-modal', descriptionZh: '视觉-语言、音频-视觉、跨模态', color: '#ec4899' },
+          { id: 'interdisciplinary', name: 'Interdisciplinary', nameZh: '跨学科', description: 'Medical imaging, robotics, scientific computing', descriptionZh: '医学影像、机器人、科学计算', color: '#06b6d4' }
+        ];
+      }
+
+      // Load CSV files
+      await loadCsvFiles();
+      
+      updateUI();
+    }
+
+    // Load CSV files
+    async function loadCsvFiles() {
+      try {
+        const medicalRes = await fetch('./medical_datasets.csv');
+        if (medicalRes.ok) {
+          const csvText = await medicalRes.text();
+          medicalDatasets = parseCSV(csvText);
+        }
+      } catch (e) {
+        console.log('No medical_datasets.csv found');
+      }
+
+      try {
+        const generalRes = await fetch('./general_datasets.csv');
+        if (generalRes.ok) {
+          const csvText = await generalRes.text();
+          generalDatasets = parseCSV(csvText);
+        }
+      } catch (e) {
+        console.log('No general_datasets.csv found');
+      }
+      
+      renderDatasets();
+      updatePreview();
+    }
+
+    // Parse CSV
+    function parseCSV(csvText) {
+      const lines = csvText.trim().split('\n');
+      if (lines.length < 2) return [];
+      
+      const headers = lines[0].split(',').map(h => h.trim());
+      const data = [];
+      
+      for (let i = 1; i < lines.length; i++) {
+        const values = lines[i].split(',').map(v => v.trim());
+        const row = {};
+        headers.forEach((h, idx) => {
+          row[h] = values[idx] || '';
+        });
+        row.id = String(i);
+        data.push(row);
+      }
+      
+      return data;
+    }
+
+    // Convert dataset to CSV row
+    function datasetToCSV(dataset) {
+      // Medical CSV format: 名称,年份,维度,模态,器官/结构,图像数量,任务类型,链接
+      return `${dataset.name || ''},${dataset.year || ''},${dataset.dimension || ''},${dataset.modality || ''},${dataset.organ || ''},${dataset.count || ''},${dataset.task || ''},${dataset.link || ''}`;
+    }
+
+    // Tab switching
+    function switchTab(tab) {
+      document.querySelectorAll('[id^="tab-"]').forEach(el => {
+        el.classList.remove('tab-active');
+        el.classList.add('tab-inactive');
+      });
+      document.querySelectorAll('[id^="content-"]').forEach(el => el.classList.add('hidden'));
+      
+      document.getElementById(`tab-${tab}`).classList.remove('tab-inactive');
+      document.getElementById(`tab-${tab}`).classList.add('tab-active');
+      document.getElementById(`content-${tab}`).classList.remove('hidden');
+    }
+
+    function switchCsvFile() {
+      currentCsvFile = document.getElementById('csv-file-select').value;
+      renderDatasets();
+    }
+
+    // Modal functions
+    function openModal(id) {
+      document.getElementById(id).classList.remove('hidden');
+      document.getElementById(id).classList.add('flex');
+    }
+
+    function closeModal(id) {
+      document.getElementById(id).classList.add('hidden');
+      document.getElementById(id).classList.remove('flex');
+    }
+
+    // Direction functions
+    let editingDirection = null;
+
+    function addDirection() {
+      editingDirection = null;
+      document.getElementById('direction-modal-title').textContent = 'Add Direction';
+      document.getElementById('direction-id').value = '';
+      document.getElementById('direction-name').value = '';
+      document.getElementById('direction-icon').value = 'Eye';
+      document.getElementById('direction-description').value = '';
+      document.getElementById('direction-color').value = 'blue';
+      document.getElementById('direction-id').disabled = false;
+      openModal('direction-modal');
+    }
+
+    function editDirection(id) {
+      editingDirection = id;
+      const dir = directionsData.directions.find(d => d.id === id);
+      document.getElementById('direction-modal-title').textContent = 'Edit Direction';
+      document.getElementById('direction-id').value = dir.id;
+      document.getElementById('direction-name').value = dir.name;
+      document.getElementById('direction-icon').value = dir.icon || 'Eye';
+      document.getElementById('direction-description').value = dir.description;
+      document.getElementById('direction-color').value = dir.color || 'blue';
+      document.getElementById('direction-id').disabled = true;
+      openModal('direction-modal');
+    }
+
+    function saveDirection() {
+      const id = document.getElementById('direction-id').value.trim();
+      const name = document.getElementById('direction-name').value.trim();
+      const icon = document.getElementById('direction-icon').value;
+      const description = document.getElementById('direction-description').value.trim();
+      const color = document.getElementById('direction-color').value;
+
+      if (!id || !name) {
+        alert('ID and Name are required');
+        return;
+      }
+
+      if (editingDirection) {
+        const dir = directionsData.directions.find(d => d.id === editingDirection);
+        dir.name = name;
+        dir.icon = icon;
+        dir.description = description;
+        dir.color = color;
+      } else {
+        if (directionsData.directions.find(d => d.id === id)) {
+          alert('Direction ID already exists');
+          return;
+        }
+        directionsData.directions.push({ 
+          id, name, icon, description, color,
+          nameZh: name, descriptionZh: description 
+        });
+      }
+
+      closeModal('direction-modal');
+      updateUI();
+    }
+
+    function deleteDirection(id) {
+      if (!confirm('Delete this direction?')) return;
+      directionsData.directions = directionsData.directions.filter(d => d.id !== id);
+      papersData.papers = papersData.papers.filter(p => p.direction !== id);
+      updateUI();
+    }
+
+    // Paper functions
+    let editingPaper = null;
+
+    function addPaper() {
+      editingPaper = null;
+      document.getElementById('paper-modal-title').textContent = 'Add Paper';
+      clearPaperForm();
+      openModal('paper-modal');
+    }
+
+    function editPaper(paperId) {
+      editingPaper = paperId;
+      const paper = papersData.papers.find(p => p.id === paperId);
+      
+      document.getElementById('paper-modal-title').textContent = 'Edit Paper';
+      document.getElementById('paper-id').value = paper.id;
+      document.getElementById('paper-direction').value = paper.direction;
+      document.getElementById('paper-title').value = paper.title;
+      document.getElementById('paper-authors').value = paper.authors.join(', ');
+      document.getElementById('paper-year').value = paper.year;
+      document.getElementById('paper-venue').value = paper.venue;
+      document.getElementById('paper-abstract').value = paper.abstract;
+      document.getElementById('paper-summary').value = paper.summary || '';
+      document.getElementById('paper-gaps').value = paper.gaps || '';
+      document.getElementById('paper-objectives').value = paper.objectives || '';
+      document.getElementById('paper-code').value = paper.code || '';
+      document.getElementById('paper-project').value = paper.project || '';
+      document.getElementById('paper-pdf').value = paper.pdf || '';
+      document.getElementById('paper-tags').value = paper.tags.join(', ');
+      openModal('paper-modal');
+    }
+
+    function clearPaperForm() {
+      document.getElementById('paper-id').value = '';
+      document.getElementById('paper-direction').value = directionsData.directions[0]?.id || '';
+      document.getElementById('paper-title').value = '';
+      document.getElementById('paper-authors').value = '';
+      document.getElementById('paper-year').value = new Date().getFullYear();
+      document.getElementById('paper-venue').value = '';
+      document.getElementById('paper-abstract').value = '';
+      document.getElementById('paper-summary').value = '';
+      document.getElementById('paper-gaps').value = '';
+      document.getElementById('paper-objectives').value = '';
+      document.getElementById('paper-code').value = '';
+      document.getElementById('paper-project').value = '';
+      document.getElementById('paper-pdf').value = '';
+      document.getElementById('paper-tags').value = '';
+    }
+
+    function savePaper() {
+      const directionId = document.getElementById('paper-direction').value;
+      const title = document.getElementById('paper-title').value.trim();
+      const authors = document.getElementById('paper-authors').value.split(',').map(s => s.trim()).filter(Boolean);
+      const year = parseInt(document.getElementById('paper-year').value) || new Date().getFullYear();
+      const venue = document.getElementById('paper-venue').value.trim();
+      const abstract = document.getElementById('paper-abstract').value.trim();
+      const summary = document.getElementById('paper-summary').value.trim();
+      const gaps = document.getElementById('paper-gaps').value.trim();
+      const objectives = document.getElementById('paper-objectives').value.trim();
+      const code = document.getElementById('paper-code').value.trim();
+      const project = document.getElementById('paper-project').value.trim();
+      const pdf = document.getElementById('paper-pdf').value.trim();
+      const tags = document.getElementById('paper-tags').value.split(',').map(s => s.trim()).filter(Boolean);
+      
+      if (!title) {
+        alert('Title is required');
+        return;
+      }
+
+      const paperData = {
+        id: editingPaper || `paper-${Date.now()}`,
+        title,
+        authors,
+        year,
+        venue,
+        abstract,
+        summary,
+        gaps,
+        objectives,
+        code: code || undefined,
+        project: project || undefined,
+        pdf: pdf || undefined,
+        direction: directionId,
+        tags
+      };
+
+      if (editingPaper) {
+        const idx = papersData.papers.findIndex(p => p.id === editingPaper);
+        papersData.papers[idx] = paperData;
+      } else {
+        papersData.papers.push(paperData);
+      }
+
+      closeModal('paper-modal');
+      updateUI();
+    }
+
+    function deletePaper(paperId) {
+      if (!confirm('Delete this paper?')) return;
+      papersData.papers = papersData.papers.filter(p => p.id !== paperId);
+      updateUI();
+    }
+
+    // Dataset functions
+    let editingDataset = null;
+
+    function addDataset() {
+      editingDataset = null;
+      document.getElementById('dataset-modal-title').textContent = 'Add Dataset';
+      document.getElementById('dataset-id').value = '';
+      document.getElementById('dataset-name').value = '';
+      document.getElementById('dataset-year').value = new Date().getFullYear();
+      document.getElementById('dataset-dimension').value = '2D';
+      document.getElementById('dataset-modality').value = '';
+      document.getElementById('dataset-organ').value = '';
+      document.getElementById('dataset-count').value = '';
+      document.getElementById('dataset-task').value = '';
+      document.getElementById('dataset-link').value = '';
+      openModal('dataset-modal');
+    }
+
+    function editDataset(id) {
+      const datasets = currentCsvFile === 'medical' ? medicalDatasets : generalDatasets;
+      editingDataset = id;
+      const ds = datasets.find(d => d.id === id);
+      
+      document.getElementById('dataset-modal-title').textContent = 'Edit Dataset';
+      document.getElementById('dataset-id').value = ds.id;
+      document.getElementById('dataset-name').value = ds.name || ds['名称'] || '';
+      document.getElementById('dataset-year').value = ds.year || ds['年份'] || '';
+      document.getElementById('dataset-dimension').value = ds.dimension || ds['维度'] || '2D';
+      document.getElementById('dataset-modality').value = ds.modality || ds['模态'] || '';
+      document.getElementById('dataset-organ').value = ds.organ || ds['器官/结构'] || '';
+      document.getElementById('dataset-count').value = ds.count || ds['图像数量'] || ds.numSamples || '';
+      document.getElementById('dataset-task').value = ds.task || ds['任务类型'] || '';
+      document.getElementById('dataset-link').value = ds.link || ds['链接'] || '';
+      openModal('dataset-modal');
+    }
+
+    function saveDataset() {
+      const name = document.getElementById('dataset-name').value.trim();
+      const year = document.getElementById('dataset-year').value;
+      const dimension = document.getElementById('dataset-dimension').value;
+      const modality = document.getElementById('dataset-modality').value.trim();
+      const organ = document.getElementById('dataset-organ').value.trim();
+      const count = document.getElementById('dataset-count').value.trim();
+      const task = document.getElementById('dataset-task').value.trim();
+      const link = document.getElementById('dataset-link').value.trim();
+      
+      if (!name) {
+        alert('Name is required');
+        return;
+      }
+
+      const datasetData = {
+        id: editingDataset || `ds-${Date.now()}`,
+        name,
+        year: year ? parseInt(year) : '',
+        dimension,
+        modality,
+        organ,
+        count,
+        task,
+        link
+      };
+
+      const datasets = currentCsvFile === 'medical' ? medicalDatasets : generalDatasets;
+      
+      if (editingDataset) {
+        const idx = datasets.findIndex(d => d.id === editingDataset);
+        datasets[idx] = datasetData;
+      } else {
+        datasets.push(datasetData);
+      }
+
+      closeModal('dataset-modal');
+      renderDatasets();
+      updatePreview();
+    }
+
+    function deleteDataset(id) {
+      if (!confirm('Delete this dataset?')) return;
+      if (currentCsvFile === 'medical') {
+        medicalDatasets = medicalDatasets.filter(d => d.id !== id);
+      } else {
+        generalDatasets = generalDatasets.filter(d => d.id !== id);
+      }
+      renderDatasets();
+      updatePreview();
+    }
+
+    // UI Update functions
+    function updateUI() {
+      renderDirections();
+      renderPapers();
+      renderDatasets();
+      updatePaperDirectionSelect();
+      updatePreview();
+    }
+
+    function renderDirections() {
+      const container = document.getElementById('directions-list');
+      container.innerHTML = directionsData.directions.map(dir => `
+        <div class="bg-white rounded-xl p-4 border border-slate-200 shadow-sm">
+          <div class="flex items-start justify-between">
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="w-3 h-3 rounded-full" style="background-color: ${dir.color}"></span>
+                <h3 class="font-bold text-slate-900">${dir.name}</h3>
+              </div>
+              <p class="text-sm text-slate-500 mt-1">${dir.description}</p>
+              <p class="text-xs text-slate-400 mt-2">ID: ${dir.id}</p>
+            </div>
+            <div class="flex gap-1">
+              <button onclick="editDirection('${dir.id}')" class="p-2 text-slate-400 hover:text-blue-500 hover:bg-blue-50 rounded-lg">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button onclick="deleteDirection('${dir.id}')" class="p-2 text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-lg">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderPapers() {
+      const filter = document.getElementById('paper-direction-filter')?.value;
+      const container = document.getElementById('papers-list');
+      
+      let papersToShow = papersData.papers;
+      if (filter) {
+        papersToShow = papersToShow.filter(p => p.direction === filter);
+      }
+
+      container.innerHTML = papersToShow.map(p => {
+        const dir = directionsData.directions.find(d => d.id === p.direction);
+        return `
+        <div class="bg-white rounded-xl p-4 border border-slate-200 shadow-sm">
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="text-xs px-2 py-0.5 bg-slate-100 rounded-full">${dir?.name || p.direction}</span>
+                <span class="text-xs text-slate-400">${p.year}</span>
+                <span class="text-xs text-slate-400">${p.venue}</span>
+              </div>
+              <h3 class="font-bold text-slate-900">${p.title}</h3>
+              <p class="text-sm text-slate-600 mt-1">${p.authors.join(', ')}</p>
+              <div class="flex flex-wrap gap-1 mt-2">
+                ${p.tags.map(t => `<span class="text-xs px-2 py-0.5 bg-blue-100 text-blue-700 rounded-full">${t}</span>`).join('')}
+              </div>
+            </div>
+            <div class="flex gap-1 ml-4">
+              <button onclick="editPaper('${p.id}')" class="p-2 text-slate-400 hover:text-blue-500 hover:bg-blue-50 rounded-lg">
+                <i class="fas fa-edit"></i>
+              </button>
+              <button onclick="deletePaper('${p.id}')" class="p-2 text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-lg">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      `}).join('') || '<p class="text-slate-500 text-center py-8">No papers yet. Click "Add Paper" to add one.</p>';
+    }
+
+    function renderDatasets() {
+      const container = document.getElementById('datasets-list');
+      const datasets = currentCsvFile === 'medical' ? medicalDatasets : generalDatasets;
+      
+      container.innerHTML = datasets.map(ds => `
+        <div class="bg-white rounded-xl p-4 border border-slate-200 shadow-sm flex items-center justify-between">
+          <div class="flex items-center gap-4">
+            <span class="w-10 h-10 bg-emerald-100 rounded-lg flex items-center justify-center">
+              <i class="fas fa-database text-emerald-600"></i>
+            </span>
+            <div>
+              <h3 class="font-bold text-slate-900">${ds.name || ds['名称']}</h3>
+              <p class="text-sm text-slate-500">
+                ${ds.year || ds['年份'] || 'N/A'} • ${ds.dimension || ds['维度']} • ${ds.modality || ds['模态']} • ${ds.task || ds['任务类型']}
+              </p>
+            </div>
+          </div>
+          <div class="flex gap-1">
+            <button onclick="editDataset('${ds.id}')" class="p-2 text-slate-400 hover:text-blue-500 hover:bg-blue-50 rounded-lg">
+              <i class="fas fa-edit"></i>
+            </button>
+            <button onclick="deleteDataset('${ds.id}')" class="p-2 text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-lg">
+              <i class="fas fa-trash"></i>
+            </button>
+          </div>
+        </div>
+      `).join('') || '<p class="text-slate-500 text-center py-8">No datasets yet. Click "Add Dataset" to add one.</p>';
+    }
+
+    function updatePaperDirectionSelect() {
+      const selects = ['paper-direction', 'paper-direction-filter'];
+      selects.forEach(id => {
+        const select = document.getElementById(id);
+        if (select) {
+          const currentValue = select.value;
+          const filterOption = id === 'paper-direction-filter' ? '<option value="">All Directions</option>' : '';
+          select.innerHTML = filterOption + directionsData.directions.map(d => 
+            `<option value="${d.id}">${d.name}</option>`
+          ).join('');
+          if (currentValue) select.value = currentValue;
+        }
+      });
+    }
+
+    function filterPapers() {
+      renderPapers();
+    }
+
+    function updatePreview() {
+      document.getElementById('papers-json-preview').textContent = 
+        '// papers.json\n' + JSON.stringify(papersData, null, 2);
+      
+      // Generate CSV preview
+      const medicalCSV = generateCSV(medicalDatasets, 'medical');
+      const generalCSV = generateCSV(generalDatasets, 'general');
+      document.getElementById('datasets-csv-preview').textContent = 
+        '// medical_datasets.csv\n' + medicalCSV + '\n\n// general_datasets.csv\n' + generalCSV;
+    }
+
+    function generateCSV(datasets, type) {
+      if (datasets.length === 0) return 'No data';
+      const header = '名称,年份,维度,模态,器官/结构,图像数量,任务类型,链接';
+      const rows = datasets.map(ds => {
+        return `${ds.name || ds['名称'] || ''},${ds.year || ds['年份'] || ''},${ds.dimension || ds['维度'] || ''},${ds.modality || ds['模态'] || ''},${ds.organ || ds['器官/结构'] || ''},${ds.count || ds['图像数量'] || ''},${ds.task || ds['任务类型'] || ''},${ds.link || ds['链接'] || ''}`;
+      });
+      return [header, ...rows].join('\n');
+    }
+
+    // Export/Import functions
+    function exportData() {
+      // Download papers.json
+      const papersBlob = new Blob([JSON.stringify(papersData, null, 2)], { type: 'application/json' });
+      const papersUrl = URL.createObjectURL(papersBlob);
+      const papersA = document.createElement('a');
+      papersA.href = papersUrl;
+      papersA.download = 'papers.json';
+      papersA.click();
+
+      // Download directions.json
+      const directionsBlob = new Blob([JSON.stringify(directionsData, null, 2)], { type: 'application/json' });
+      const directionsUrl = URL.createObjectURL(directionsBlob);
+      const directionsA = document.createElement('a');
+      directionsA.href = directionsUrl;
+      directionsA.download = 'directions.json';
+      directionsA.click();
+
+      // Download medical_datasets.csv
+      const medicalCSV = generateCSV(medicalDatasets, 'medical');
+      const medicalBlob = new Blob([medicalCSV], { type: 'text/csv' });
+      const medicalUrl = URL.createObjectURL(medicalBlob);
+      const medicalA = document.createElement('a');
+      medicalA.href = medicalUrl;
+      medicalA.download = 'medical_datasets.csv';
+      medicalA.click();
+
+      // Download general_datasets.csv
+      const generalCSV = generateCSV(generalDatasets, 'general');
+      const generalBlob = new Blob([generalCSV], { type: 'text/csv' });
+      const generalUrl = URL.createObjectURL(generalBlob);
+      const generalA = document.createElement('a');
+      generalA.href = generalUrl;
+      generalA.download = 'general_datasets.csv';
+      generalA.click();
+
+      URL.revokeObjectURL(papersUrl);
+      URL.revokeObjectURL(directionsUrl);
+      URL.revokeObjectURL(medicalUrl);
+      URL.revokeObjectURL(generalUrl);
+    }
+
+    function importData() {
+      document.getElementById('importFile').click();
+    }
+
+    function handleImport(event) {
+      const file = event.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        try {
+          if (file.name.endsWith('.json')) {
+            const imported = JSON.parse(e.target.result);
+            if (imported.papers) {
+              papersData = imported;
+            } else if (imported.directions) {
+              directionsData = imported;
+            }
+          } else if (file.name.endsWith('.csv')) {
+            const csvText = e.target.result;
+            if (file.name.includes('medical')) {
+              medicalDatasets = parseCSV(csvText);
+            } else {
+              generalDatasets = parseCSV(csvText);
+            }
+          }
+          updateUI();
+          alert('Data imported successfully!');
+        } catch (err) {
+          alert('Error importing data: ' + err.message);
+        }
+      };
+      reader.readAsText(file);
+      event.target.value = '';
+    }
+
+    // Initialize
+    document.addEventListener('DOMContentLoaded', initData);
+  </script>
+</body>
+</html>

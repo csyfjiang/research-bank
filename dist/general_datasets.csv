@@ -1,0 +1,70 @@
+名称,年份,维度,模态,器官/结构,图像数量,任务类型,链接
+ImageNet-1K,2012,2D,RGB Image,General,1.28M,Classification,https://www.image-net.org/
+ImageNet-21K,2012,2D,RGB Image,General,14M,Classification,https://www.image-net.org/
+COCO,2014,2D,RGB Image,Object Detection,330K,Detection/Segmentation,https://cocodataset.org/
+COCO-Stuff,2017,2D,RGB Image,Object Detection,118K,Segmentation,https://github.com/nightrome/cocostuff
+CIFAR-10,2009,2D,RGB Image,General,60K,Classification,https://www.cs.toronto.edu/~kriz/cifar.html
+CIFAR-100,2009,2D,RGB Image,General,60K,Classification,https://www.cs.toronto.edu/~kriz/cifar.html
+MNIST,1998,2D,Grayscale,General,70K,Classification,http://yann.lecun.com/exdb/mnist/
+Fashion-MNIST,2017,2D,Grayscale,General,70K,Classification,https://github.com/zalandoresearch/fashion-mnist
+Pascal VOC,2005,2D,RGB Image,Object Detection,20K,Detection/Segmentation,http://host.robots.ox.ac.uk/pascal/VOC/
+ADE20K,2016,2D,RGB Image,Scene Parsing,25K,Segmentation,https://groups.csail.mit.edu/vision/datasets/ADE20K/
+Cityscapes,2016,2D,RGB Image,Urban Street,25K,Segmentation,https://www.cityscapes-dataset.com/
+KITTI,2012,2D,RGB+LiDAR,Autonomous Driving,15K,Detection/Tracking,http://www.cvlibs.net/datasets/kitti/
+KITTI-360,2019,2D/3D,RGB+LiDAR,Autonomous Driving,320K,Detection/Segmentation,http://www.cvlibs.net/datasets/kitti-360/
+nuScenes,2019,2D/3D,RGB+LiDAR+Radar,Autonomous Driving,1.4M,Detection/Tracking,https://www.nuscenes.org/
+Waymo Open Dataset,2019,2D/3D,RGB+LiDAR,Autonomous Driving,1.15M,Detection/Tracking,https://waymo.com/open/
+BDD100K,2018,2D,RGB Image,Autonomous Driving,100K,Detection/Segmentation,https://bdd-data.berkeley.edu/
+Mapillary Vistas,2017,2D,RGB Image,Street View,250K,Segmentation,https://www.mapillary.com/dataset/vistas
+LAION-5B,2022,2D,RGB Image,General,5.85B,Pre-training,https://laion.ai/blog/laion-5b/
+LAION-400M,2021,2D,RGB Image,General,400M,Pre-training,https://laion.ai/blog/laion-400-open-dataset/
+FFHQ,2018,2D,RGB Image,Face,70K,Generation,https://github.com/NVlabs/ffhq-dataset
+CelebA,2015,2D,RGB Image,Face,200K,Attribute Recognition,https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
+CelebA-HQ,2019,2D,RGB Image,Face,30K,Generation,https://github.com/tkarras/progressive_growing_of_gans
+LFW,2007,2D,RGB Image,Face,13K,Face Verification,http://vis-www.cs.umass.edu/lfw/
+VGGFace2,2018,2D,RGB Image,Face,3.3M,Face Recognition,https://github.com/ox-vgg/vgg_face2
+MS-Celeb-1M,2016,2D,RGB Image,Face,10M,Face Recognition,https://www.microsoft.com/en-us/research/project/ms-celeb-1m-challenge-recognizing-one-million-celebrities-real-world/
+Open Images,2018,2D,RGB Image,General,9M,Detection/Classification,https://storage.googleapis.com/openimages/web/index.html
+Places365,2017,2D,RGB Image,Scene,10M,Scene Recognition,http://places2.csail.mit.edu/download.html
+SUN397,2012,2D,RGB Image,Scene,108K,Scene Recognition,https://vision.princeton.edu/projects/2010/SUN/
+DeepFashion,2016,2D,RGB Image,Fashion,800K,Fashion Analysis,https://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html
+DeepFashion2,2019,2D,RGB Image,Fashion,491K,Fashion Analysis,https://github.com/switchablenorms/DeepFashion2
+MPII Human Pose,2014,2D,RGB Image,Human Pose,25K,Pose Estimation,http://human-pose.mpi-inf.mpg.de/
+COCO Keypoints,2017,2D,RGB Image,Human Pose,200K,Pose Estimation,https://cocodataset.org/
+CrowdPose,2018,2D,RGB Image,Human Pose,80K,Pose Estimation,https://github.com/Jeff-sjtu/CrowdPose
+YouTube-VOS,2018,Video,RGB Video,General,4K Videos,Video Segmentation,https://youtube-vos.org/
+DAVIS,2016,Video,RGB Video,General,150 Videos,Video Segmentation,https://davischallenge.org/
+Sintel,2012,Video,RGB Video,Synthetic,1K Videos,Optical Flow,http://sintel.is.tue.mpg.de/
+FlyingChairs,2015,Video,Synthetic,Motion,22K,Optical Flow,https://lmb.informatik.uni-freiburg.de/resources/datasets/FlyingChairs.en.html
+FlyingThings3D,2015,Video,Synthetic,Motion,22K,Optical Flow,https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html
+Kinetics-400,2017,Video,RGB Video,Action Recognition,306K,Action Recognition,https://deepmind.google/research/open-source/kinetics/
+Kinetics-700,2019,Video,RGB Video,Action Recognition,650K,Action Recognition,https://deepmind.google/research/open-source/kinetics/
+UCF101,2012,Video,RGB Video,Action Recognition,13K,Action Recognition,https://www.crcv.ucf.edu/data/UCF101.php
+HMDB51,2011,Video,RGB Video,Action Recognition,7K,Action Recognition,https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/
+Something-Something V2,2018,Video,RGB Video,Action Recognition,220K,Action Recognition,https://20bn.com/datasets/something-something
+AVA,2018,Video,RGB Video,Action Detection,1.6M,Action Detection,https://research.google.com/ava/
+Charades,2016,Video,RGB Video,Action Recognition,10K,Action Recognition,https://prior.allenai.org/projects/charades
+LibriSpeech,2015,Audio,Audio,Speech,1K hours,Speech Recognition,https://www.openslr.org/12
+VoxCeleb2,2018,Audio+Video,Audio+Video,Speaker,1M,Speaker Recognition,http://www.robots.ox.ac.uk/~vgg/data/voxceleb/
+Flickr30K,2014,2D,RGB+Text,Image Captioning,30K,Image Captioning,http://shannon.cs.illinois.edu/DenotationGraph/
+MSCOCO Captioning,2014,2D,RGB+Text,Image Captioning,330K,Image Captioning,https://cocodataset.org/
+Visual Genome,2017,2D,RGB+Text,Visual QA,108K,Visual QA,https://visualgenome.org/
+VQAv2,2018,2D,RGB+Text,Visual QA,1.1M,Visual QA,https://visualqa.org/
+GQA,2019,2D,RGB+Text,Visual QA,22M,Visual QA,https://cs.stanford.edu/people/dorarad/gqa/
+RefCOCO,2016,2D,RGB+Text,Referring Expression,20K,Referring Expression,https://github.com/lichengunc/refer
+RefCOCO+,2016,2D,RGB+Text,Referring Expression,20K,Referring Expression,https://github.com/lichengunc/refer
+RefCOCOg,2016,2D,RGB+Text,Referring Expression,26K,Referring Expression,https://github.com/lichengunc/refer
+ScanNet,2017,3D,RGB-D,Indoor Scenes,2.5M,3D Reconstruction,http://www.scan-net.org/
+SUN RGB-D,2015,3D,RGB-D,Indoor Scenes,10K,3D Detection,https://rgbd.cs.princeton.edu/
+NYU Depth V2,2012,3D,RGB-D,Indoor Scenes,144K,Depth Estimation,https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html
+ShapeNet,2015,3D,3D Model,General,3M,3D Recognition,https://www.shapenet.org/
+ModelNet40,2015,3D,3D Model,Object,12K,3D Classification,https://modelnet.cs.princeton.edu/
+PointNet++,2017,3D,Point Cloud,General,0,3D Segmentation,https://github.com/charlesq34/pointnet2
+S3DIS,2016,3D,Point Cloud,Indoor,273M points,3D Segmentation,http://buildingparser.stanford.edu/dataset.html
+Semantic3D,2017,3D,Point Cloud,Outdoor,4B points,3D Segmentation,http://www.semantic3d.net/
+ApolloScape,2018,2D/3D,RGB+LiDAR,Autonomous Driving,140K,Detection/Segmentation,http://apolloscape.auto/
+Argoverse,2019,2D/3D,RGB+LiDAR,Autonomous Driving,300K,Detection/Forecasting,https://www.argoverse.org/
+H3D,2019,3D,RGB+LiDAR,Autonomous Driving,27K,3D Detection,https://usa.honda-ri.com/H3D
+PandaSet,2020,3D,RGB+LiDAR,Autonomous Driving,100K,3D Detection,https://scale.com/open-datasets/pandaset
+A2D2,2020,3D,RGB+LiDAR,Autonomous Driving,41K,3D Detection,https://www.a2d2.audi/
+SemanticKITTI,2019,3D,LiDAR,Autonomous Driving,43K,3D Segmentation,http://semantic-kitti.org/
