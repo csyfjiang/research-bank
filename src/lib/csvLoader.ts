@@ -47,7 +47,7 @@ function parseCSVWithChineseHeaders(csvText: string): any[] {
 // 从CSV加载通用数据集
 export async function loadGeneralDatasets(): Promise<GeneralDataset[]> {
   try {
-    const response = await fetch('/general_datasets.csv');
+    const response = await fetch('/research-bank/general_datasets.csv');
     const csvText = await response.text();
     const rawData = parseCSVWithChineseHeaders(csvText);
     
@@ -72,7 +72,7 @@ export async function loadGeneralDatasets(): Promise<GeneralDataset[]> {
 // 从CSV加载医学数据集
 export async function loadMedicalDatasets(): Promise<MedicalDataset[]> {
   try {
-    const response = await fetch('/medical_datasets.csv');
+    const response = await fetch('/research-bank/medical_datasets.csv');
     const csvText = await response.text();
     const rawData = parseCSVWithChineseHeaders(csvText);
     
